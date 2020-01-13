@@ -1,0 +1,1789 @@
+<?xml version="1.0"?>
+<page>
+<dataset code="D100" label="United States Cancer Statistics, 1999-2011 Incidence" family="Cancer" totals="true" suppress-counts="true" agreement-required="false">
+	<variable code="D100.V8" label="Cancer Sites" type="ignore-selections=O_cancer=D100.V10,indent,indent-modify-sql" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D100.V8"/>
+		<value code="0" label="All Cancer Sites Combined" hierarchy-level="1"/>
+		<value code="20010-20100" label="Oral Cavity and Pharynx" hierarchy-level="2"/>
+		<value code="20010" label="Lip" hierarchy-level="3"/>
+		<value code="20020" label="Tongue" hierarchy-level="3"/>
+		<value code="20030" label="Salivary Gland" hierarchy-level="3"/>
+		<value code="20040" label="Floor of Mouth" hierarchy-level="3"/>
+		<value code="20050" label="Gum and Other Mouth" hierarchy-level="3"/>
+		<value code="20060" label="Nasopharynx" hierarchy-level="3"/>
+		<value code="20070" label="Tonsil" hierarchy-level="3"/>
+		<value code="20080" label="Oropharynx" hierarchy-level="3"/>
+		<value code="20090" label="Hypopharynx" hierarchy-level="3"/>
+		<value code="20100" label="Other Oral Cavity and Pharynx" hierarchy-level="3"/>
+		<value code="21010-21130" label="Digestive System" hierarchy-level="2"/>
+		<value code="21010" label="Esophagus" hierarchy-level="3"/>
+		<value code="21020" label="Stomach" hierarchy-level="3"/>
+		<value code="21030" label="Small Intestine" hierarchy-level="3"/>
+		<value code="21041-21052" label="Colon and Rectum" hierarchy-level="3"/>
+		<value code="21041-21049" label="Colon excluding Rectum" hierarchy-level="4"/>
+		<value code="21041" label="Cecum" hierarchy-level="5"/>
+		<value code="21042" label="Appendix" hierarchy-level="5"/>
+		<value code="21043" label="Ascending Colon" hierarchy-level="5"/>
+		<value code="21044" label="Hepatic Flexure" hierarchy-level="5"/>
+		<value code="21045" label="Transverse Colon" hierarchy-level="5"/>
+		<value code="21046" label="Splenic Flexure" hierarchy-level="5"/>
+		<value code="21047" label="Descending Colon" hierarchy-level="5"/>
+		<value code="21048" label="Sigmoid Colon" hierarchy-level="5"/>
+		<value code="21049" label="Large Intestine, NOS" hierarchy-level="5"/>
+		<value code="21051-21052" label="Rectum and Rectosigmoid Junction" hierarchy-level="4"/>
+		<value code="21051" label="Rectosigmoid Junction" hierarchy-level="5"/>
+		<value code="21052" label="Rectum" hierarchy-level="5"/>
+		<value code="21060" label="Anus, Anal Canal and Anorectum" hierarchy-level="3"/>
+		<value code="21071-21072" label="Liver and Intrahepatic Bile Duct" hierarchy-level="3"/>
+		<value code="21071" label="Liver" hierarchy-level="4"/>
+		<value code="21072" label="Intrahepatic Bile Duct" hierarchy-level="4"/>
+		<value code="21080" label="Gallbladder" hierarchy-level="3"/>
+		<value code="21090" label="Other Biliary" hierarchy-level="3"/>
+		<value code="21100" label="Pancreas" hierarchy-level="3"/>
+		<value code="21110" label="Retroperitoneum" hierarchy-level="3"/>
+		<value code="21120" label="Peritoneum, Omentum and Mesentery" hierarchy-level="3"/>
+		<value code="21130" label="Other Digestive Organs" hierarchy-level="3"/>
+		<value code="22010-22060" label="Respiratory System" hierarchy-level="2"/>
+		<value code="22010" label="Nose, Nasal Cavity and Middle Ear" hierarchy-level="3"/>
+		<value code="22020" label="Larynx" hierarchy-level="3"/>
+		<value code="22030" label="Lung and Bronchus" hierarchy-level="3"/>
+		<value code="22050" label="Pleura" hierarchy-level="3"/>
+		<value code="22060" label="Trachea, Mediastinum and Other Respiratory Organs" hierarchy-level="3"/>
+		<value code="23000" label="Bones and Joints" hierarchy-level="2"/>
+		<value code="24000" label="Soft Tissue including Heart" hierarchy-level="2"/>
+		<value code="25010-25020" label="Skin excluding Basal and Squamous" hierarchy-level="2"/>
+		<value code="25010" label="Melanoma of the Skin" hierarchy-level="3"/>
+		<value code="25020" label="Other Non-Epithelial Skin" hierarchy-level="3"/>
+		<value code="26000" label="Male and Female Breast" hierarchy-level="2"/>
+		<value code="26000-Female" label="Female Breast" hierarchy-level="3"/>
+		<value code="26000-Male" label="Male Breast" hierarchy-level="3"/>
+		<value code="27010-27070" label="Female Genital System" hierarchy-level="2"/>
+		<value code="27010" label="Cervix Uteri" hierarchy-level="3"/>
+		<value code="27020" label="Corpus Uteri" hierarchy-level="3"/>
+		<value code="27030" label="Uterus, NOS" hierarchy-level="3"/>
+		<value code="27040" label="Ovary" hierarchy-level="3"/>
+		<value code="27050" label="Vagina" hierarchy-level="3"/>
+		<value code="27060" label="Vulva" hierarchy-level="3"/>
+		<value code="27070" label="Other Female Genital Organs" hierarchy-level="3"/>
+		<value code="28010-28040" label="Male Genital System" hierarchy-level="2"/>
+		<value code="28010" label="Prostate" hierarchy-level="3"/>
+		<value code="28020" label="Testis" hierarchy-level="3"/>
+		<value code="28030" label="Penis" hierarchy-level="3"/>
+		<value code="28040" label="Other Male Genital Organs" hierarchy-level="3"/>
+		<value code="29010-29040" label="Urinary System" hierarchy-level="2"/>
+		<value code="29010" label="Urinary Bladder, invasive and in situ" hierarchy-level="3"/>
+		<value code="29020" label="Kidney and Renal Pelvis" hierarchy-level="3"/>
+		<value code="29030" label="Ureter" hierarchy-level="3"/>
+		<value code="29040" label="Other Urinary Organs" hierarchy-level="3"/>
+		<value code="30000" label="Eye and Orbit" hierarchy-level="2"/>
+		<value code="31010-31040" label="Brain and Other Nervous System" hierarchy-level="2"/>
+		<value code="31010" label="Brain" hierarchy-level="3"/>
+		<value code="31040" label="Cranial Nerves Other Nervous System" hierarchy-level="3"/>
+		<value code="32010-32020" label="Endocrine System" hierarchy-level="2"/>
+		<value code="32010" label="Thyroid" hierarchy-level="3"/>
+		<value code="32020" label="Other Endocrine including Thymus" hierarchy-level="3"/>
+		<value code="33011-33042" label="Lymphomas" hierarchy-level="2"/>
+		<value code="33011-33012" label="Hodgkin Lymphoma" hierarchy-level="3"/>
+		<value code="33011" label="Hodgkin - Nodal" hierarchy-level="4"/>
+		<value code="33012" label="Hodgkin - Extranodal" hierarchy-level="4"/>
+		<value code="33041-33042" label="Non-Hodgkin Lymphoma" hierarchy-level="3"/>
+		<value code="33041" label="NHL - Nodal" hierarchy-level="4"/>
+		<value code="33042" label="NHL - Extranodal" hierarchy-level="4"/>
+		<value code="34000" label="Myeloma" hierarchy-level="2"/>
+		<value code="35011-35043" label="Leukemias" hierarchy-level="2"/>
+		<value code="35011" label="Acute Lymphocytic Leukemia" hierarchy-level="3"/>
+		<value code="35012" label="Chronic Lymphocytic Leukemia" hierarchy-level="3"/>
+		<value code="35021" label="Acute Myeloid Leukemia" hierarchy-level="3"/>
+		<value code="35022" label="Chronic Myeloid Leukemia" hierarchy-level="3"/>
+		<value code="35041-35043" label="Other Leukemias" hierarchy-level="3"/>
+		<value code="35013" label="Other Lymphocytic Leukemia" hierarchy-level="4"/>
+		<value code="35031" label="Acute Monocytic Leukemia" hierarchy-level="4"/>
+		<value code="35041" label="Other Acute Leukemia" hierarchy-level="4"/>
+		<value code="35043" label="Aleukemic, Subleukemic and NOS" hierarchy-level="4"/>
+		<value code="35023" label="Other Myeloid/Monocytic Leukemia" hierarchy-level="4"/>
+		<value code="36010" label="Mesothelioma" hierarchy-level="2"/>
+		<value code="36020" label="Kaposi Sarcoma" hierarchy-level="2"/>
+		<value code="37000" label="Miscellaneous" hierarchy-level="2"/>
+		<value code="Breast-InSitu" label="In Situ Breast Cancer" hierarchy-level="2"/>
+		<value code="Breast-InSitu-Female" label="Female Breast, In Situ" hierarchy-level="3"/>
+		<value code="Breast-InSitu-Male" label="Male Breast, In Situ" hierarchy-level="3"/>
+	</variable>
+	<variable code="D100.V10" label="Leading Cancer Sites" type="default=0,ignore-selections=O_cancer" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D100.V10"/>
+		<value code="0" label="All Leading Sites"/>
+		<value code="00" label="All Sites Combined"/>
+		<value code="31010-31040" label="Brain and Other Nervous System"/>
+		<value code="26000" label="Breast"/>
+		<value code="27010" label="Cervix Uteri"/>
+		<value code="21041-21052" label="Colon and Rectum"/>
+		<value code="27020" label="Corpus Uteri"/>
+		<value code="21010" label="Esophagus"/>
+		<value code="21080" label="Gallbladder"/>
+		<value code="29020" label="Kidney and Renal Pelvis"/>
+		<value code="22020" label="Larynx"/>
+		<value code="35011-35043" label="Leukemias"/>
+		<value code="21071" label="Liver"/>
+		<value code="22030" label="Lung and Bronchus"/>
+		<value code="25010" label="Melanoma of the Skin"/>
+		<value code="34000" label="Myeloma"/>
+		<value code="33041-33042" label="Non-Hodgkin Lymphoma"/>
+		<value code="20010-20100" label="Oral Cavity and Pharynx"/>
+		<value code="27040" label="Ovary"/>
+		<value code="21100" label="Pancreas"/>
+		<value code="28010" label="Prostate"/>
+		<value code="21020" label="Stomach"/>
+		<value code="32010" label="Thyroid"/>
+		<value code="29010" label="Urinary Bladder, invasive and in situ"/>
+	</variable>
+	<variable code="D100.V7" label="Childhood Cancers" type="indent,indent-modify-sql" display-code="F" use-finder="false">
+		<other-param-control code="O_cancer" value="D100.V7"/>
+		<value code="0" label="All Childhood Cancers Combined" hierarchy-level="1"/>
+		<value code="10" label="I Leukemia" hierarchy-level="2"/>
+		<value code="11" label="I(a) Lymphoid leukemias" hierarchy-level="3"/>
+		<value code="12" label="I(b) Acute myeloid leukemias" hierarchy-level="3"/>
+		<value code="13" label="I(c) Chronic myeloproliferative diseases" hierarchy-level="3"/>
+		<value code="14" label="I(d) Myelodysplastic syndrome and other myeloproliferative" hierarchy-level="3"/>
+		<value code="15" label="I(e) Unspecified and other specified leukemias" hierarchy-level="3"/>
+		<value code="20" label="II Lymphoma and reticuloendothelial neoplasms" hierarchy-level="2"/>
+		<value code="21" label="II(a) Hodgkin lymphomas" hierarchy-level="3"/>
+		<value code="22" label="II(b) Non-Hodgkin lymphomas (except Burkitt lymphoma)" hierarchy-level="3"/>
+		<value code="23" label="II(c) Burkitt lymphoma" hierarchy-level="3"/>
+		<value code="24" label="II(d) Miscellaneous lymphoreticular neoplasms" hierarchy-level="3"/>
+		<value code="25" label="II(e) Unspecified lymphomas" hierarchy-level="3"/>
+		<value code="30" label="III CNS and misc intracranial and intraspinal neoplasms" hierarchy-level="2"/>
+		<value code="31" label="III(a) Ependymomas and choroid plexus tumor" hierarchy-level="3"/>
+		<value code="32" label="III(b) Astrocytomas" hierarchy-level="3"/>
+		<value code="33" label="III(c) Intracranial and intraspinal embryonal tumors" hierarchy-level="3"/>
+		<value code="34" label="III(d) Other gliomas" hierarchy-level="3"/>
+		<value code="35" label="III(e) Other specified intracranial/intraspinal neoplasms" hierarchy-level="3"/>
+		<value code="36" label="III(f) Unspecified intracranial and intraspinal neoplasms" hierarchy-level="3"/>
+		<value code="40" label="IV Sympathetic nervous system tumors" hierarchy-level="2"/>
+		<value code="41" label="IV(a) Neuroblastoma and ganglioneuroblastoma" hierarchy-level="3"/>
+		<value code="42" label="IV(b) Other peripheral nervous cell tumors" hierarchy-level="3"/>
+		<value code="50" label="V Retinoblastoma" hierarchy-level="2"/>
+		<value code="60" label="VI Renal tumors" hierarchy-level="2"/>
+		<value code="61" label="VI(a) Nephroblastoma and other nonepithelial renal tumors" hierarchy-level="3"/>
+		<value code="62" label="VI(b) Renal carcinomas" hierarchy-level="3"/>
+		<value code="63" label="VI(c) Unspecified malignant renal tumors" hierarchy-level="3"/>
+		<value code="70" label="VII Hepatic tumor" hierarchy-level="2"/>
+		<value code="71" label="VII(a) Hepatoblastoma" hierarchy-level="3"/>
+		<value code="72" label="VII(b) Hepatic carcinomas" hierarchy-level="3"/>
+		<value code="73" label="VII(c) Unspecified malignant hepatic tumors" hierarchy-level="3"/>
+		<value code="80" label="VIII Malignant bone tumors" hierarchy-level="2"/>
+		<value code="81" label="VIII(a) Osteosarcomas" hierarchy-level="3"/>
+		<value code="82" label="VIII(b) Chondrosarcomas" hierarchy-level="3"/>
+		<value code="83" label="VIII(c) Ewing tumor and related sarcomas of bone" hierarchy-level="3"/>
+		<value code="84" label="VIII(d) Other specified malignant bone tumors" hierarchy-level="3"/>
+		<value code="85" label="VIII(e) Unspecified malignant bone tumors" hierarchy-level="3"/>
+		<value code="90" label="IX Soft-tissue sarcomas" hierarchy-level="2"/>
+		<value code="91" label="IX(a) Rhabdomyosarcomas" hierarchy-level="3"/>
+		<value code="92" label="IX(b) Fibrosarcomas, peripheral nerve &amp; other fibrous" hierarchy-level="3"/>
+		<value code="93" label="IX(c) Kaposi sarcoma" hierarchy-level="3"/>
+		<value code="94" label="IX(d) Other specified soft tissue sarcomas" hierarchy-level="3"/>
+		<value code="95" label="IX(e) Unspecified soft tissue sarcomas" hierarchy-level="3"/>
+		<value code="100" label="X Germ-cell, trophoblastic and other gonadal neoplasms" hierarchy-level="2"/>
+		<value code="101" label="X(a) Intracranial &amp; intraspinal germ cell tumors" hierarchy-level="3"/>
+		<value code="102" label="X(b) Extracranial &amp; extragonadal germ cell tumors" hierarchy-level="3"/>
+		<value code="103" label="X(c) Malignant gonadal germ cell tumors" hierarchy-level="3"/>
+		<value code="104" label="X(d) Gonadal carcinomas" hierarchy-level="3"/>
+		<value code="105" label="X(e) Other and unspecified malignant gonadal tumors" hierarchy-level="3"/>
+		<value code="110" label="XI Carcinomas and other malignant epithelial neoplasms" hierarchy-level="2"/>
+		<value code="111" label="XI(a) Adrenocortical carcinomas" hierarchy-level="3"/>
+		<value code="112" label="XI(b) Thyroid carcinomas" hierarchy-level="3"/>
+		<value code="113" label="XI(c) Nasopharyngeal carcinomas" hierarchy-level="3"/>
+		<value code="114" label="XI(d) Malignant melanomas" hierarchy-level="3"/>
+		<value code="115" label="XI(e) Skin carcinomas" hierarchy-level="3"/>
+		<value code="116" label="XI(f) Other and unspecified carcinomas" hierarchy-level="3"/>
+		<value code="120" label="XII Other and unspecified malignant neoplasms" hierarchy-level="2"/>
+		<value code="121" label="XII(a) Other specified malignant tumors" hierarchy-level="3"/>
+		<value code="122" label="XII(b) Other unspecified malignant tumors" hierarchy-level="3"/>
+		<value code="253" label="Not classified by ICCC or in situ" hierarchy-level="2"/>
+		<value code="254" label="In Situ Breast Cancer" hierarchy-level="2"/>
+		<value code="254F" label="Female Breast, In Situ" hierarchy-level="3"/>
+		<value code="254M" label="Male Breast, In Situ" hierarchy-level="3"/>
+	</variable>
+	<variable code="D100.V5" label="Age Group" type="" display-code="F" use-finder="false">
+		<value code="1" label="&lt; 1 year"/>
+		<value code="1-4" label="1-4 years"/>
+		<value code="5-9" label="5-9 years"/>
+		<value code="10-14" label="10-14 years"/>
+		<value code="15-19" label="15-19 years"/>
+		<value code="20-24" label="20-24 years"/>
+		<value code="25-29" label="25-29 years"/>
+		<value code="30-34" label="30-34 years"/>
+		<value code="35-39" label="35-39 years"/>
+		<value code="40-44" label="40-44 years"/>
+		<value code="45-49" label="45-49 years"/>
+		<value code="50-54" label="50-54 years"/>
+		<value code="55-59" label="55-59 years"/>
+		<value code="60-64" label="60-64 years "/>
+		<value code="65-69" label="65-69 years"/>
+		<value code="70-74" label="70-74 years"/>
+		<value code="75-79" label="75-79 years"/>
+		<value code="80-84" label="80-84 years"/>
+		<value code="85+" label="85+ years"/>
+	</variable>
+	<variable code="D100.V9" label="Sex" type="" display-code="F" use-finder="false">
+		<value code="F" label="Female"/>
+		<value code="M" label="Male"/>
+	</variable>
+	<variable code="D100.V3" label="MSA" type="geo=msa2" display-code="F" use-finder="false">
+		<other-param-control code="O_location" value="D100.V3"/>
+		<value code="10420" label="	Akron, OH		"/>
+		<value code="10580" label="	Albany-Schenectady-Troy, NY		"/>
+		<value code="10740" label="	Albuquerque, NM		"/>
+		<value code="10900" label="	Allentown-Bethlehem-Easton, PA-NJ		"/>
+		<value code="12060" label="	Atlanta-Sandy Springs-Roswell, GA		"/>
+		<value code="12260" label="	Augusta-Richmond County, GA-SC		"/>
+		<value code="12420" label="	Austin-Round Rock, TX		"/>
+		<value code="12540" label="	Bakersfield, CA		"/>
+		<value code="12580" label="	Baltimore-Columbia-Towson, MD		"/>
+		<value code="12940" label="	Baton Rouge, LA		"/>
+		<value code="13820" label="	Birmingham-Hoover, AL		"/>
+		<value code="14260" label="	Boise City, ID		"/>
+		<value code="14460" label="	Boston-Cambridge-Newton, MA-NH		"/>
+		<value code="14860" label="	Bridgeport-Stamford-Norwalk, CT		"/>
+		<value code="15380" label="	Buffalo-Cheektowaga-Niagara Falls, NY		"/>
+		<value code="15980" label="	Cape Coral-Fort Myers, FL		"/>
+		<value code="16700" label="	Charleston-North Charleston, SC		"/>
+		<value code="16740" label="	Charlotte-Concord-Gastonia, NC-SC		"/>
+		<value code="16860" label="	Chattanooga, TN-GA		"/>
+		<value code="16980" label="	Chicago-Naperville-Elgin, IL-IN-WI		"/>
+		<value code="17140" label="	Cincinnati, OH-KY-IN		"/>
+		<value code="17460" label="	Cleveland-Elyria, OH		"/>
+		<value code="17820" label="	Colorado Springs, CO		"/>
+		<value code="17900" label="	Columbia, SC		"/>
+		<value code="18140" label="	Columbus, OH		"/>
+		<value code="19100" label="	Dallas-Fort Worth-Arlington, TX		"/>
+		<value code="19380" label="	Dayton, OH		"/>
+		<value code="19660" label="	Deltona-Daytona Beach-Ormond Beach, FL		"/>
+		<value code="19740" label="	Denver-Aurora-Lakewood, CO		"/>
+		<value code="19780" label="	Des Moines-West Des Moines, IA		"/>
+		<value code="19820" label="	Detroit-Warren-Dearborn, MI		"/>
+		<value code="20500" label="	Durham-Chapel Hill, NC		"/>
+		<value code="21340" label="	El Paso, TX		"/>
+		<value code="23420" label="	Fresno, CA		"/>
+		<value code="24340" label="	Grand Rapids-Wyoming, MI		"/>
+		<value code="24660" label="	Greensboro-High Point, NC		"/>
+		<value code="24860" label="	Greenville-Anderson-Mauldin, SC		"/>
+		<value code="25420" label="	Harrisburg-Carlisle, PA		"/>
+		<value code="25540" label="	Hartford-West Hartford-East Hartford, CT		"/>
+		<value code="26420" label="	Houston-The Woodlands-Sugar Land, TX		"/>
+		<value code="26900" label="	Indianapolis-Carmel-Anderson, IN		"/>
+		<value code="27140" label="	Jackson, MS		"/>
+		<value code="27260" label="	Jacksonville, FL		"/>
+		<value code="28140" label="	Kansas City, MO-KS		"/>
+		<value code="28940" label="	Knoxville, TN		"/>
+		<value code="29460" label="	Lakeland-Winter Haven, FL		"/>
+		<value code="29540" label="	Lancaster, PA		"/>
+		<value code="29820" label="	Las Vegas-Henderson-Paradise, NV		"/>
+		<value code="30780" label="	Little Rock-North Little Rock-Conway, AR		"/>
+		<value code="31080" label="	Los Angeles-Long Beach-Anaheim, CA		"/>
+		<value code="31140" label="	Louisville/Jefferson County, KY-IN		"/>
+		<value code="31540" label="	Madison, WI		"/>
+		<value code="32580" label="	McAllen-Edinburg-Mission, TX		"/>
+		<value code="32820" label="	Memphis, TN-MS-AR		"/>
+		<value code="33100" label="	Miami-Fort Lauderdale-West Palm Beach, FL		"/>
+		<value code="33340" label="	Milwaukee-Waukesha-West Allis, WI		"/>
+		<value code="33460" label="	Minneapolis-St. Paul-Bloomington, MN-WI		"/>
+		<value code="33700" label="	Modesto, CA		"/>
+		<value code="34980" label="	Nashville-Davidson-Murfreesboro-Franklin, TN		"/>
+		<value code="35300" label="	New Haven-Milford, CT		"/>
+		<value code="35380" label="	New Orleans-Metairie, LA		"/>
+		<value code="35620" label="	New York-Newark-Jersey City, NY-NJ-PA		"/>
+		<value code="35840" label="	North Port-Sarasota-Bradenton, FL		"/>
+		<value code="36260" label="	Ogden-Clearfield, UT		"/>
+		<value code="36420" label="	Oklahoma City, OK		"/>
+		<value code="36540" label="	Omaha-Council Bluffs, NE-IA		"/>
+		<value code="36740" label="	Orlando-Kissimmee-Sanford, FL		"/>
+		<value code="37100" label="	Oxnard-Thousand Oaks-Ventura, CA		"/>
+		<value code="37340" label="	Palm Bay-Melbourne-Titusville, FL		"/>
+		<value code="37980" label="	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD		"/>
+		<value code="38060" label="	Phoenix-Mesa-Scottsdale, AZ		"/>
+		<value code="38300" label="	Pittsburgh, PA		"/>
+		<value code="38860" label="	Portland-South Portland, ME		"/>
+		<value code="38900" label="	Portland-Vancouver-Hillsboro, OR-WA		"/>
+		<value code="39300" label="	Providence-Warwick, RI-MA		"/>
+		<value code="39340" label="	Provo-Orem, UT		"/>
+		<value code="39580" label="	Raleigh, NC		"/>
+		<value code="40060" label="	Richmond, VA		"/>
+		<value code="40140" label="	Riverside-San Bernardino-Ontario, CA		"/>
+		<value code="40380" label="	Rochester, NY		"/>
+		<value code="40900" label="	Sacramento-Roseville-Arden-Arcade, CA		"/>
+		<value code="41180" label="	St. Louis, MO-IL		"/>
+		<value code="41620" label="	Salt Lake City, UT		"/>
+		<value code="41700" label="	San Antonio-New Braunfels, TX		"/>
+		<value code="41740" label="	San Diego-Carlsbad, CA		"/>
+		<value code="41860" label="	San Francisco-Oakland-Hayward, CA		"/>
+		<value code="41940" label="	San Jose-Sunnyvale-Santa Clara, CA		"/>
+		<value code="42540" label="	Scranton-Wilkes-Barre-Hazleton, PA		"/>
+		<value code="42660" label="	Seattle-Tacoma-Bellevue, WA		"/>
+		<value code="44060" label="	Spokane-Spokane Valley, WA		"/>
+		<value code="44140" label="	Springfield, MA		"/>
+		<value code="44700" label="	Stockton-Lodi, CA		"/>
+		<value code="45060" label="	Syracuse, NY		"/>
+		<value code="45300" label="	Tampa-St. Petersburg-Clearwater, FL		"/>
+		<value code="45780" label="	Toledo, OH		"/>
+		<value code="46060" label="	Tucson, AZ		"/>
+		<value code="46140" label="	Tulsa, OK		"/>
+		<value code="46520" label="	Urban Honolulu, HI		"/>
+		<value code="47260" label="	Virginia Beach-Norfolk-Newport News, VA-NC		"/>
+		<value code="47900" label="	Washington-Arlington-Alexandria, DC-VA-MD-WV		"/>
+		<value code="48620" label="	Wichita, KS		"/>
+		<value code="49180" label="	Winston-Salem, NC		"/>
+		<value code="49340" label="	Worcester, MA-CT		"/>
+		<value code="49660" label="	Youngstown-Warren-Boardman, OH-PA		"/>
+		<value code="99999" label="Other"/>
+	</variable>
+	<variable code="D100.V4" label="Race" type="" display-code="F" use-finder="false">
+		<value code="1002-5" label="American Indian or Alaska Native"/>
+		<value code="A-PI" label="Asian or Pacific Islander"/>
+		<value code="2054-5" label="Black or African American"/>
+		<value code="2106-3" label="White"/>
+		<value code="2131-1" label="Other Races and Unknown combined"/>
+	</variable>
+	<variable code="D100.V6" label="Ethnicity" type="" display-code="F" use-finder="false">
+		<value code="2135-2" label="Hispanic"/>
+		<value code="2186-5" label="Non-Hispanic"/>
+		<value code="UNK" label="Unknown or Missing"/>
+	</variable>
+	<variable code="D100.V11" label="Regions" type="hier1,related,use-finder" display-code="F" use-finder="true">
+		<other-param-control code="O_location" value="D100.V11"/>
+		<hier-level code="D100.V11-level1" level="1" label="Region" type="geo=region-cens"/>
+		<hier-level code="D100.V11-level2" level="2" label="Division" type="geo=division-cens,valuesvary"/>
+		<hier-level code="D100.V11-level3" level="3" label="State" type="geo=state,valuesvary,alias=D100.V2"/>
+	</variable>
+	<variable code="D100.V2" label="State" type="display-label-code,geo=state,related" display-code="T-Last" use-finder="false">
+		<other-param-control code="O_location" value="D100.V2"/>
+		<value code="01" label="Alabama"/>
+		<value code="02" label="Alaska"/>
+		<value code="04" label="Arizona"/>
+		<value code="05" label="Arkansas"/>
+		<value code="06" label="California"/>
+		<value code="08" label="Colorado"/>
+		<value code="09" label="Connecticut"/>
+		<value code="10" label="Delaware"/>
+		<value code="11" label="District of Columbia"/>
+		<value code="12" label="Florida"/>
+		<value code="13" label="Georgia"/>
+		<value code="15" label="Hawaii"/>
+		<value code="16" label="Idaho"/>
+		<value code="17" label="Illinois"/>
+		<value code="18" label="Indiana"/>
+		<value code="19" label="Iowa"/>
+		<value code="20" label="Kansas"/>
+		<value code="21" label="Kentucky"/>
+		<value code="22" label="Louisiana"/>
+		<value code="23" label="Maine"/>
+		<value code="24" label="Maryland"/>
+		<value code="25" label="Massachusetts"/>
+		<value code="26" label="Michigan"/>
+		<value code="27" label="Minnesota"/>
+		<value code="28" label="Mississippi"/>
+		<value code="29" label="Missouri"/>
+		<value code="30" label="Montana"/>
+		<value code="31" label="Nebraska"/>
+		<value code="32" label="Nevada"/>
+		<value code="33" label="New Hampshire"/>
+		<value code="34" label="New Jersey"/>
+		<value code="35" label="New Mexico"/>
+		<value code="36" label="New York"/>
+		<value code="37" label="North Carolina"/>
+		<value code="38" label="North Dakota"/>
+		<value code="39" label="Ohio"/>
+		<value code="40" label="Oklahoma"/>
+		<value code="41" label="Oregon"/>
+		<value code="42" label="Pennsylvania"/>
+		<value code="44" label="Rhode Island"/>
+		<value code="45" label="South Carolina"/>
+		<value code="46" label="South Dakota"/>
+		<value code="47" label="Tennessee"/>
+		<value code="48" label="Texas"/>
+		<value code="49" label="Utah"/>
+		<value code="50" label="Vermont"/>
+		<value code="51" label="Virginia"/>
+		<value code="53" label="Washington"/>
+		<value code="54" label="West Virginia"/>
+		<value code="55" label="Wisconsin"/>
+		<value code="56" label="Wyoming"/>
+	</variable>
+	<variable code="D100.V1" label="Year" type="range=1999-2011" display-code="F" use-finder="false">
+		<range>
+			<min code="1999" label="1999"/>
+			<max code="2011" label="2011"/>
+		</range>
+		<value code="1999" label="1999"/>
+		<value code="2000" label="2000"/>
+		<value code="2001" label="2001"/>
+		<value code="2002" label="2002"/>
+		<value code="2003" label="2003"/>
+		<value code="2004" label="2004"/>
+		<value code="2005" label="2005"/>
+		<value code="2006" label="2006"/>
+		<value code="2007" label="2007"/>
+		<value code="2008" label="2008"/>
+		<value code="2009" label="2009"/>
+		<value code="2010" label="2010"/>
+		<value code="2011" label="2011"/>
+	</variable>
+	<measure code="D100.M1" label="Count" type="count" datatype="int" isdefault="true"/>
+	<measure code="D100.M2" label="Population" type="pop" datatype="int" isdefault="true"/>
+	<measure code="D100.M30" label="Age-Adjusted Rate" type="rate" datatype="double" isdefault="false">
+		<combine-label idx="0" label="95% Confidence Interval"/>
+		<combine-label idx="1" label="Standard Error"/>
+	</measure>
+	<measure code="D100.M31" label="Age-Adjusted Rate Lower 95% Confidence Interval" type="lci" datatype="double" isdefault="false"/>
+	<measure code="D100.M32" label="Age-Adjusted Rate Upper 95% Confidence Interval" type="uci" datatype="double" isdefault="false"/>
+	<measure code="D100.M33" label="Age-Adjusted Rate Standard Error" type="se" datatype="double" isdefault="false"/>
+	<measure code="D100.M40" label="Crude Rate" type="rate" datatype="double" isdefault="false">
+		<combine-label idx="0" label="95% Confidence Interval"/>
+		<combine-label idx="1" label="Standard Error"/>
+	</measure>
+	<measure code="D100.M41" label="Crude Rate Lower 95% Confidence Interval" type="lci" datatype="double" isdefault="false"/>
+	<measure code="D100.M42" label="Crude Rate Upper 95% Confidence Interval" type="uci" datatype="double" isdefault="false"/>
+	<measure code="D100.M43" label="Crude Rate Standard Error" type="se" datatype="double" isdefault="false"/>
+<documentation>
+	<citation>United States Cancer Statistics: 1999 - 2011 Incidence, WONDER Online Database. United States Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; 2014.</citation>
+	<helpfile>/wonder/help/cancer-v2011.html</helpfile>
+	<jumppageURL>/cancer.html</jumppageURL>
+	<jumppageText>Cancer Statistics Data</jumppageText>
+	<citationURL>http://wonder.cdc.gov/cancer-v2011.html</citationURL>
+	<about><p>
+			The <a onclick="setfocus('WONDER_Help')" target="WONDER_Help" href="http://apps.nccd.cdc.gov/uscs/">United States Cancer Statistics</a> (USCS) 
+			are the official federal statistics on cancer incidence from registries having high-quality data 
+			and cancer mortality statistics for 50 states and the District of Columbia. 
+			USCS are produced by the Centers for Disease Control and Prevention (CDC) 
+			and the National Cancer Institute (NCI).  
+			For a list of all USCS contributors and partners, visit 
+			<a onclick="setfocus('WONDER_Help')" target="WONDER_Help" 
+			href="http://www.cdc.gov/cancer/npcr/uscs/technical_notes/contributors/">USCS Contributors</a>.
+			</p>
+			
+			<p>
+			Data are provided by: 
+			<ul>
+			<li>The Centers for Disease Control and Prevention <a href="http://www.cdc.gov/cancer/npcr/">National Program of Cancer Registries (NPCR)</a></li>
+			<li>The National Cancer Institute <a href="http://seer.cancer.gov/about">Surveillance, Epidemiology and End Results (SEER)</a> program</li>
+			</ul>
+			</p>
+			
+			<p>
+			Cancer data are available for the United States, state and metropolitan areas (MSA) by 
+			age group, race (5 groups), ethnicity, 	gender, childhood cancer classifications and cancer sites. 
+			</p></about>
+	<dataurl>http://www.cdc.gov/cancer/npcr/uscs/download_data.htm</dataurl>
+	<caveat code="D100.C1">
+		<text evaluate="false"><![CDATA[The "Show Totals" checkbox is disabled when data are grouped by Cancer Sites or by Childhood Cancer, because aggregate values are displayed in the table.  Also be aware that charts and maps containing both aggregate and detail data could be misleading.]]></text>
+		<rule>wonder:cancer-totals()</rule>
+	</caveat>
+	<caveat code="D100.C3">
+		<text evaluate="false"><![CDATA[Age-adjusted rates are not available when results are grouped by age.]]></text>
+		<rule>wonder:cancer-aar()</rule>
+	</caveat>
+	<caveat code="D100.C5">
+		<text evaluate="false"><![CDATA[These states are missing data for the indicated year: 
+				Alabama 1999; 
+				Arkansas 1999-2000, 2002;
+				District of Columbia 2001-2002;
+				Maryland 2001;
+				Mississippi 1999-2002; 
+				Nevada 1999, 2011;
+ 			  North Dakota 2001;
+				South Dakota 1999-2000;  
+				Tennessee 1999-2003;  
+				Virginia 1999-2002.]]></text>
+		<rule>wonder:cancer-states('01,05,11,24,28,32,38,46,47,51')</rule>
+	</caveat>
+	<caveat code="D100.C7">
+		<text evaluate="false"><![CDATA[These MSAs are missing data for the indicated years: 
+			Baltimore-Columbia-Towson, MD  2001;
+			Birmingham-Hoover, AL 1999;
+			Chattanooga, TN-GA 1999-2003;
+			Denver-Aurora-Lakewood, CO 1999-2001;
+			Jackson, MS  1999-2002;
+			Kansas City, MO-KS 1999-2011;
+			Knoxville, TN  1999-2003;
+			Las Vegas-Henderson-Paradise, NV 1999, 2011; 
+			Little Rock-North Little Rock-Conway, AR 1999-2000, 2002;
+			Memphis, TN-MS-AR  1999-2003;
+			Minneapolis-St. Paul-Bloomington, MN-WI 1999-2011;
+			Nashville-Davidson-Murfreesboro-Franklin, TN  1999-2003;
+			Philadelphia-Camden-Wilmington, PA-NJ-DE-MD 2001;
+			Richmond, VA  1999-2002;
+			Urban Honolulu, HI  1999;
+			Virginia Beach-Norfolk-Newport News, VA-NC  1999-2002;
+			Washington-Arlington-Alexandria, DC-VA-MD-WV 1999-2002.
+			Wichita, KS 1999-2011;]]></text>
+		<rule>wonder:cancer-msas('12580,13820,16860,19740,27140,28140,28940,29820,30780,32820,33460,34980,37980,40060,46520,47260,47900,48620')</rule>
+	</caveat>
+	<caveat code="D100.C8">
+		<text evaluate="false"><![CDATA[Data are suppressed if fewer than 16 cases are reported in the specific category.
+				Data for the "Asian / Pacific Islander", "American Indian or Alaska Native", and the "Other Races Combined" race categories are suppressed at the Metropolitan Statistical Area level for populations less than 50,000 persons.
+				Data are suppressed at the state level for certain race and ethnicity groups:
+				1) American Indian or Alaska Native data are suppressed at the state level for 
+				Delaware, Georgia, Illinois, Kansas, Kentucky, Missouri, New Jersey, New York, and South Carolina;
+				2) Asian or Pacific Islander data are suppressed at the state level for
+				Delaware, Illinois, Kansas, Kentucky, Missouri, and South Carolina;
+				3) Hispanic data are supressed at the state level for 
+				Delaware, Kentucky, Massachusetts, Missouri, Pennsylvania, and South Carolina.
+				#Confidentiality#]]></text>
+		<rule>true()</rule>
+	</caveat>
+	<caveat code="D100.C9">
+		<text evaluate="false"><![CDATA[Gender-specific cancers will show 'Not Applicable' when the wrong sex is selected. #Genital Cancers List"#]]></text>
+		<rule>wonder:cancer-gender-na('26000-Male,28010-28040,28010,28020,28030,28040,Breast-InSitu-Male,26000-Female,27010-27070,27010,27020,27030,27040,27050,27060,27070,Breast-InSitu-Female')</rule>
+	</caveat>
+	<caveat code="D100.C10">
+		<text evaluate="false"><![CDATA[Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria.]]></text>
+		<rule>true()</rule>
+	</caveat>
+	<caveat code="D100.C12">
+		<text evaluate="false"><![CDATA[For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from 
+			Alabama, Louisiana, Mississippi and Texas due to Hurricanes Katrina and Rita. CDC WONDER does not 
+			include the displaced persons in the 2005 population counts for these states, nor are these counts 
+			included in the summary populations for the affected division, regions or national population.  However, 
+			the USCS web site does include these displaced persons in the national population figures for 2005.]]></text>
+		<rule>true()</rule>
+	</caveat>
+	<caveat code="D100.C13">
+		<text evaluate="false"><![CDATA[Information on primary site, behavior, and histology was coded according to the 
+			International Classification of Diseases for Oncology, Third Edition (ICD-O-3) and categorized 
+			according to the revised SEER recodes dated January 27, 2003, which define standard groupings of 
+			primary cancer sites.]]></text>
+		<rule>true()</rule>
+	</caveat>
+<footnote>wonder:cancer-fn-ins-breast()</footnote>
+<footnote>wonder:cancer-fn-ins-childhood-breast()</footnote>
+</documentation>
+<missing var1="D100.V11-level3" var2="D100.V1" flag="Missing" preference="2">
+	<instance code="01">
+		<value>1999</value>
+	</instance>
+	<instance code="05">
+		<value>1999</value>
+		<value>2000</value>
+		<value>2002</value>
+	</instance>
+	<instance code="11">
+		<range>2001-2002</range>
+	</instance>
+	<instance code="24">
+		<value>2001</value>
+	</instance>
+	<instance code="28">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="32">
+		<value>1999</value>
+		<value>2011</value>
+	</instance>
+	<instance code="38">
+		<value>2001</value>
+	</instance>
+	<instance code="46">
+		<range>1999-2000</range>
+	</instance>
+	<instance code="47">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="51">
+		<range>1999-2002</range>
+	</instance>
+</missing>
+<missing var1="D100.V2" var2="D100.V1" flag="Missing" preference="2">
+	<instance code="01">
+		<value>1999</value>
+	</instance>
+	<instance code="05">
+		<value>1999</value>
+		<value>2000</value>
+		<value>2002</value>
+	</instance>
+	<instance code="11">
+		<range>2001-2002</range>
+	</instance>
+	<instance code="24">
+		<value>2001</value>
+	</instance>
+	<instance code="28">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="32">
+		<value>1999</value>
+		<value>2011</value>
+	</instance>
+	<instance code="38">
+		<value>2001</value>
+	</instance>
+	<instance code="46">
+		<range>1999-2000</range>
+	</instance>
+	<instance code="47">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="51">
+		<range>1999-2002</range>
+	</instance>
+</missing>
+<missing var1="D100.V9" var2="D100.V8" flag="Not Applicable" preference="1">
+	<condition other="O_cancer" value="D100.V8"/>
+	<instance code="F">
+		<value>26000-Male</value>
+		<value>28010-28040</value>
+		<value>28010</value>
+		<value>28020</value>
+		<value>28030</value>
+		<value>28040</value>
+		<value>Breast-InSitu-Male</value>
+	</instance>
+	<instance code="M">
+		<value>26000-Female</value>
+		<value>27010-27070</value>
+		<value>27010</value>
+		<value>27020</value>
+		<value>27030</value>
+		<value>27040</value>
+		<value>27050</value>
+		<value>27060</value>
+		<value>27070</value>
+		<value>Breast-InSitu-Female</value>
+	</instance>
+</missing>
+<missing var1="D100.V9" var2="D100.V10" flag="Not Applicable" preference="1">
+	<condition other="O_cancer" value="D100.V10"/>
+	<instance code="F">
+		<value>28010</value>
+	</instance>
+	<instance code="M">
+		<value>27010</value>
+		<value>27020</value>
+		<value>27040</value>
+	</instance>
+</missing>
+<missing var1="D100.V3" var2="D100.V1" flag="Missing" preference="2">
+	<condition other="O_location" value="D100.V3"/>
+	<instance code="12580">
+		<value>2001</value>
+	</instance>
+	<instance code="13820">
+		<value>1999</value>
+	</instance>
+	<instance code="16860">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="19740">
+		<range>1999-2001</range>
+	</instance>
+	<instance code="27140">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="28140"> <!-- this msa, kansas city, will not show up in scripts to find missing years because all years are missing. -->
+		<range>1999-2011</range>
+	</instance>
+	<instance code="28940">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="29820">
+		<value>1999</value>
+		<value>2011</value>
+	</instance>
+	<instance code="30780">
+		<range>1999-2000</range>
+		<value>2002</value>
+	</instance>
+	<instance code="32820">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="33460"> <!-- this msa, minneapolis, will not show up in scripts to find missing years because all years are missing. -->
+		<range>1999-2011</range>
+	</instance>
+	<instance code="34980">
+		<range>1999-2003</range>
+	</instance>
+	<instance code="37980">
+		<value>2001</value>
+	</instance>
+	<instance code="40060">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="46520">
+		<value>1999</value>
+	</instance>
+	<instance code="47260">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="47900">
+		<range>1999-2002</range>
+	</instance>
+	<instance code="48620"> <!-- this msa, wichita, will not show up in scripts to find missing years because all years are missing. -->
+		<range>1999-2011</range>
+	</instance>
+</missing>
+</dataset>
+<response>
+<request query-date="Nov 24, 2014 11:07:43 AM">
+<variable-selections>
+</variable-selections>
+<byvariables>
+	<variable code="D100.V1"/>
+	<variable code="D100.V2"/>
+</byvariables>
+<list-variables>
+</list-variables>
+<measure-selections>
+	<measure code="D100.M1"/>
+	<measure code="D100.M2"/>
+	<measure code="D100.M30"/>
+	<measure code="D100.M31"/>
+	<measure code="D100.M32"/>
+	<measure code="D100.M33"/>
+</measure-selections>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>1</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<value>300</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D100.V2</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D100.V8</value>
+	</parameter>
+	<parameter code="O_title" display="false">
+		<value></value>
+	</parameter>
+	<parameter code="O_V11_fmode" display="false">
+		<value>freg</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>on</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+</other-parameters>
+</request>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>1</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<value>300</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D100.V2</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D100.V8</value>
+	</parameter>
+	<parameter code="O_title" display="false">
+		<value></value>
+	</parameter>
+	<parameter code="O_V11_fmode" display="false">
+		<value>freg</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>on</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_labels_quick" display="false">
+		<value>true</value>
+	</parameter>
+</other-parameters>
+<measure-selections>
+	<measure code="D100.M1" min="2,044" max="19,107,312" minNtNz="2,044" maxNtNz="165,389" minNtWz="2,044" maxNtWz="165,389" minWtNz="2,044" maxWtNz="19,107,312"/>
+	<measure code="D100.M2" min="491,780" max="3,748,907,736" minNtNz="491,780" maxNtNz="37,683,933" minNtWz="491,780" maxNtWz="37,683,933" minWtNz="491,780" maxWtNz="3,748,907,736"/>
+	<measure code="D100.M30" combine-idx="0,1" min="384.6" max="568.0" minNtNz="384.6" maxNtNz="568.0" minNtWz="384.6" maxNtWz="568.0" minWtNz="384.6" maxWtNz="568.0"/>
+</measure-selections>
+<measure-selections-all>
+	<measure code="D100.M1"/>
+	<measure code="D100.M2"/>
+	<measure code="D100.M30"/>
+</measure-selections-all>
+<data-table show-all-labels="true">
+<r><c l="1999"/><c l="Alabama" cd="01" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="Alaska" cd="02" cf="f"/><c v="2,044"/><c v="624,779"/><c v="522.0" a="c"><l v="(497.2 - 547.7)"/><l v="12.8"/></c></r>
+<r><c l="1999"/><c l="Arizona" cd="04" cf="f"/><c v="21,804"/><c v="5,023,823"/><c v="433.9" a="c"><l v="(428.2 - 439.8)"/><l v="2.9"/></c></r>
+<r><c l="1999"/><c l="Arkansas" cd="05" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="California" cd="06" cf="f"/><c v="140,481"/><c v="33,499,204"/><c v="480.2" a="c"><l v="(477.7 - 482.7)"/><l v="1.3"/></c></r>
+<r><c l="1999"/><c l="Colorado" cd="08" cf="f"/><c v="16,693"/><c v="4,226,018"/><c v="464.1" a="c"><l v="(457.0 - 471.3)"/><l v="3.6"/></c></r>
+<r><c l="1999"/><c l="Connecticut" cd="09" cf="f"/><c v="19,421"/><c v="3,386,401"/><c v="536.6" a="c"><l v="(529.1 - 544.2)"/><l v="3.9"/></c></r>
+<r><c l="1999"/><c l="Delaware" cd="10" cf="f"/><c v="4,120"/><c v="774,990"/><c v="522.2" a="c"><l v="(506.4 - 538.5)"/><l v="8.2"/></c></r>
+<r><c l="1999"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,070"/><c v="570,213"/><c v="550.6" a="c"><l v="(531.3 - 570.5)"/><l v="10.0"/></c></r>
+<r><c l="1999"/><c l="Florida" cd="12" cf="f"/><c v="101,801"/><c v="15,759,421"/><c v="520.5" a="c"><l v="(517.3 - 523.8)"/><l v="1.7"/></c></r>
+<r><c l="1999"/><c l="Georgia" cd="13" cf="f"/><c v="31,145"/><c v="8,045,965"/><c v="457.2" a="c"><l v="(452.1 - 462.4)"/><l v="2.6"/></c></r>
+<r><c l="1999"/><c l="Hawaii" cd="15" cf="f"/><c v="5,594"/><c v="1,210,300"/><c v="454.4" a="c"><l v="(442.6 - 466.5)"/><l v="6.1"/></c></r>
+<r><c l="1999"/><c l="Idaho" cd="16" cf="f"/><c v="5,367"/><c v="1,275,674"/><c v="458.9" a="c"><l v="(446.7 - 471.4)"/><l v="6.3"/></c></r>
+<r><c l="1999"/><c l="Illinois" cd="17" cf="f"/><c v="60,540"/><c v="12,359,020"/><c v="509.0" a="c"><l v="(504.9 - 513.0)"/><l v="2.1"/></c></r>
+<r><c l="1999"/><c l="Indiana" cd="18" cf="f"/><c v="28,204"/><c v="6,044,969"/><c v="473.9" a="c"><l v="(468.4 - 479.4)"/><l v="2.8"/></c></r>
+<r><c l="1999"/><c l="Iowa" cd="19" cf="f"/><c v="16,231"/><c v="2,917,634"/><c v="502.8" a="c"><l v="(495.1 - 510.7)"/><l v="4.0"/></c></r>
+<r><c l="1999"/><c l="Kansas" cd="20" cf="f"/><c v="13,448"/><c v="2,678,338"/><c v="496.2" a="c"><l v="(487.8 - 504.7)"/><l v="4.3"/></c></r>
+<r><c l="1999"/><c l="Kentucky" cd="21" cf="f"/><c v="21,402"/><c v="4,018,053"/><c v="532.3" a="c"><l v="(525.2 - 539.5)"/><l v="3.6"/></c></r>
+<r><c l="1999"/><c l="Louisiana" cd="22" cf="f"/><c v="20,913"/><c v="4,460,811"/><c v="504.4" a="c"><l v="(497.6 - 511.3)"/><l v="3.5"/></c></r>
+<r><c l="1999"/><c l="Maine" cd="23" cf="f"/><c v="7,387"/><c v="1,266,808"/><c v="526.6" a="c"><l v="(514.6 - 538.7)"/><l v="6.1"/></c></r>
+<r><c l="1999"/><c l="Maryland" cd="24" cf="f"/><c v="25,707"/><c v="5,254,509"/><c v="516.2" a="c"><l v="(509.9 - 522.6)"/><l v="3.2"/></c></r>
+<r><c l="1999"/><c l="Massachusetts" cd="25" cf="f"/><c v="35,527"/><c v="6,317,345"/><c v="540.6" a="c"><l v="(535.0 - 546.3)"/><l v="2.9"/></c></r>
+<r><c l="1999"/><c l="Michigan" cd="26" cf="f"/><c v="52,410"/><c v="9,897,116"/><c v="541.0" a="c"><l v="(536.3 - 545.6)"/><l v="2.4"/></c></r>
+<r><c l="1999"/><c l="Minnesota" cd="27" cf="f"/><c v="22,615"/><c v="4,873,481"/><c v="482.3" a="c"><l v="(476.0 - 488.6)"/><l v="3.2"/></c></r>
+<r><c l="1999"/><c l="Mississippi" cd="28" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="Missouri" cd="29" cf="f"/><c v="28,341"/><c v="5,561,948"/><c v="489.4" a="c"><l v="(483.7 - 495.2)"/><l v="2.9"/></c></r>
+<r><c l="1999"/><c l="Montana" cd="30" cf="f"/><c v="4,713"/><c v="897,507"/><c v="499.7" a="c"><l v="(485.5 - 514.2)"/><l v="7.3"/></c></r>
+<r><c l="1999"/><c l="Nebraska" cd="31" cf="f"/><c v="8,723"/><c v="1,704,764"/><c v="496.4" a="c"><l v="(486.0 - 506.9)"/><l v="5.3"/></c></r>
+<r><c l="1999"/><c l="Nevada" cd="32" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="New Hampshire" cd="33" cf="f"/><c v="6,087"/><c v="1,222,014"/><c v="507.2" a="c"><l v="(494.5 - 520.1)"/><l v="6.5"/></c></r>
+<r><c l="1999"/><c l="New Jersey" cd="34" cf="f"/><c v="46,850"/><c v="8,359,592"/><c v="540.7" a="c"><l v="(535.8 - 545.6)"/><l v="2.5"/></c></r>
+<r><c l="1999"/><c l="New Mexico" cd="35" cf="f"/><c v="7,494"/><c v="1,808,082"/><c v="442.7" a="c"><l v="(432.7 - 452.8)"/><l v="5.1"/></c></r>
+<r><c l="1999"/><c l="New York" cd="36" cf="f"/><c v="97,533"/><c v="18,882,725"/><c v="510.7" a="c"><l v="(507.5 - 514.0)"/><l v="1.6"/></c></r>
+<r><c l="1999"/><c l="North Carolina" cd="37" cf="f"/><c v="35,420"/><c v="7,949,361"/><c v="454.8" a="c"><l v="(450.0 - 459.5)"/><l v="2.4"/></c></r>
+<r><c l="1999"/><c l="North Dakota" cd="38" cf="f"/><c v="3,265"/><c v="644,259"/><c v="473.1" a="c"><l v="(456.9 - 489.7)"/><l v="8.4"/></c></r>
+<r><c l="1999"/><c l="Ohio" cd="39" cf="f"/><c v="58,741"/><c v="11,335,454"/><c v="502.2" a="c"><l v="(498.2 - 506.3)"/><l v="2.1"/></c></r>
+<r><c l="1999"/><c l="Oklahoma" cd="40" cf="f"/><c v="16,484"/><c v="3,437,147"/><c v="468.4" a="c"><l v="(461.3 - 475.6)"/><l v="3.7"/></c></r>
+<r><c l="1999"/><c l="Oregon" cd="41" cf="f"/><c v="18,161"/><c v="3,393,941"/><c v="525.2" a="c"><l v="(517.6 - 532.9)"/><l v="3.9"/></c></r>
+<r><c l="1999"/><c l="Pennsylvania" cd="42" cf="f"/><c v="73,060"/><c v="12,263,805"/><c v="518.7" a="c"><l v="(514.9 - 522.5)"/><l v="1.9"/></c></r>
+<r><c l="1999"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,306"/><c v="1,040,402"/><c v="557.0" a="c"><l v="(543.3 - 571.0)"/><l v="7.1"/></c></r>
+<r><c l="1999"/><c l="South Carolina" cd="45" cf="f"/><c v="19,346"/><c v="3,974,682"/><c v="495.7" a="c"><l v="(488.7 - 502.8)"/><l v="3.6"/></c></r>
+<r><c l="1999"/><c l="South Dakota" cd="46" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="Tennessee" cd="47" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="Texas" cd="48" cf="f"/><c v="82,524"/><c v="20,558,220"/><c v="479.6" a="c"><l v="(476.3 - 482.9)"/><l v="1.7"/></c></r>
+<r><c l="1999"/><c l="Utah" cd="49" cf="f"/><c v="6,806"/><c v="2,203,482"/><c v="427.3" a="c"><l v="(417.2 - 437.7)"/><l v="5.2"/></c></r>
+<r><c l="1999"/><c l="Vermont" cd="50" cf="f"/><c v="3,313"/><c v="604,683"/><c v="535.7" a="c"><l v="(517.6 - 554.3)"/><l v="9.3"/></c></r>
+<r><c l="1999"/><c l="Virginia" cd="51" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="1999"/><c l="Washington" cd="53" cf="f"/><c v="29,099"/><c v="5,842,564"/><c v="534.2" a="c"><l v="(528.1 - 540.4)"/><l v="3.1"/></c></r>
+<r><c l="1999"/><c l="West Virginia" cd="54" cf="f"/><c v="10,786"/><c v="1,811,799"/><c v="514.2" a="c"><l v="(504.5 - 524.1)"/><l v="5.0"/></c></r>
+<r><c l="1999"/><c l="Wisconsin" cd="55" cf="f"/><c v="27,698"/><c v="5,332,666"/><c v="511.0" a="c"><l v="(505.0 - 517.1)"/><l v="3.1"/></c></r>
+<r><c l="1999"/><c l="Wyoming" cd="56" cf="f"/><c v="2,264"/><c v="491,780"/><c v="483.7" a="c"><l v="(464.0 - 504.2)"/><l v="10.2"/></c></r>
+<r><c l="1999"/><c c="1"/><c dt="1,248,938"/><c dt="253,805,749"/><c dt="500.2" a="c"><l v="(499.3 - 501.1)"/><l v="0.4"/></c></r>
+<r><c l="2000"/><c l="Alabama" cd="01" cf="f"/><c v="20,430"/><c v="4,452,173"/><c v="445.5" a="c"><l v="(439.4 - 451.7)"/><l v="3.1"/></c></r>
+<r><c l="2000"/><c l="Alaska" cd="02" cf="f"/><c v="2,129"/><c v="627,963"/><c v="529.4" a="c"><l v="(504.9 - 554.7)"/><l v="12.7"/></c></r>
+<r><c l="2000"/><c l="Arizona" cd="04" cf="f"/><c v="22,609"/><c v="5,160,586"/><c v="438.6" a="c"><l v="(432.9 - 444.3)"/><l v="2.9"/></c></r>
+<r><c l="2000"/><c l="Arkansas" cd="05" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2000"/><c l="California" cd="06" cf="f"/><c v="141,600"/><c v="33,987,977"/><c v="473.8" a="c"><l v="(471.4 - 476.3)"/><l v="1.3"/></c></r>
+<r><c l="2000"/><c l="Colorado" cd="08" cf="f"/><c v="17,393"/><c v="4,326,921"/><c v="469.5" a="c"><l v="(462.5 - 476.6)"/><l v="3.6"/></c></r>
+<r><c l="2000"/><c l="Connecticut" cd="09" cf="f"/><c v="20,038"/><c v="3,411,777"/><c v="548.1" a="c"><l v="(540.5 - 555.7)"/><l v="3.9"/></c></r>
+<r><c l="2000"/><c l="Delaware" cd="10" cf="f"/><c v="4,268"/><c v="786,373"/><c v="530.8" a="c"><l v="(514.9 - 547.0)"/><l v="8.1"/></c></r>
+<r><c l="2000"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,055"/><c v="572,046"/><c v="546.0" a="c"><l v="(526.8 - 565.8)"/><l v="9.9"/></c></r>
+<r><c l="2000"/><c l="Florida" cd="12" cf="f"/><c v="104,772"/><c v="16,047,515"/><c v="527.2" a="c"><l v="(523.9 - 530.4)"/><l v="1.6"/></c></r>
+<r><c l="2000"/><c l="Georgia" cd="13" cf="f"/><c v="33,926"/><c v="8,227,303"/><c v="486.0" a="c"><l v="(480.8 - 491.2)"/><l v="2.7"/></c></r>
+<r><c l="2000"/><c l="Hawaii" cd="15" cf="f"/><c v="5,458"/><c v="1,213,519"/><c v="434.3" a="c"><l v="(422.8 - 446.0)"/><l v="5.9"/></c></r>
+<r><c l="2000"/><c l="Idaho" cd="16" cf="f"/><c v="5,823"/><c v="1,299,430"/><c v="487.4" a="c"><l v="(474.9 - 500.1)"/><l v="6.4"/></c></r>
+<r><c l="2000"/><c l="Illinois" cd="17" cf="f"/><c v="61,044"/><c v="12,434,161"/><c v="508.9" a="c"><l v="(504.9 - 513.0)"/><l v="2.1"/></c></r>
+<r><c l="2000"/><c l="Indiana" cd="18" cf="f"/><c v="29,374"/><c v="6,091,866"/><c v="488.3" a="c"><l v="(482.7 - 493.9)"/><l v="2.8"/></c></r>
+<r><c l="2000"/><c l="Iowa" cd="19" cf="f"/><c v="16,167"/><c v="2,929,067"/><c v="498.8" a="c"><l v="(491.0 - 506.6)"/><l v="3.9"/></c></r>
+<r><c l="2000"/><c l="Kansas" cd="20" cf="f"/><c v="13,456"/><c v="2,693,681"/><c v="493.1" a="c"><l v="(484.8 - 501.6)"/><l v="4.3"/></c></r>
+<r><c l="2000"/><c l="Kentucky" cd="21" cf="f"/><c v="21,849"/><c v="4,049,021"/><c v="535.0" a="c"><l v="(528.0 - 542.2)"/><l v="3.6"/></c></r>
+<r><c l="2000"/><c l="Louisiana" cd="22" cf="f"/><c v="21,156"/><c v="4,471,885"/><c v="503.7" a="c"><l v="(496.9 - 510.6)"/><l v="3.5"/></c></r>
+<r><c l="2000"/><c l="Maine" cd="23" cf="f"/><c v="7,780"/><c v="1,277,072"/><c v="544.5" a="c"><l v="(532.4 - 556.7)"/><l v="6.2"/></c></r>
+<r><c l="2000"/><c l="Maryland" cd="24" cf="f"/><c v="26,055"/><c v="5,311,034"/><c v="512.8" a="c"><l v="(506.6 - 519.1)"/><l v="3.2"/></c></r>
+<r><c l="2000"/><c l="Massachusetts" cd="25" cf="f"/><c v="36,245"/><c v="6,361,104"/><c v="545.5" a="c"><l v="(539.9 - 551.2)"/><l v="2.9"/></c></r>
+<r><c l="2000"/><c l="Michigan" cd="26" cf="f"/><c v="53,023"/><c v="9,952,450"/><c v="540.4" a="c"><l v="(535.9 - 545.1)"/><l v="2.3"/></c></r>
+<r><c l="2000"/><c l="Minnesota" cd="27" cf="f"/><c v="23,522"/><c v="4,933,692"/><c v="493.9" a="c"><l v="(487.6 - 500.3)"/><l v="3.2"/></c></r>
+<r><c l="2000"/><c l="Mississippi" cd="28" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2000"/><c l="Missouri" cd="29" cf="f"/><c v="28,249"/><c v="5,607,285"/><c v="482.6" a="c"><l v="(477.0 - 488.3)"/><l v="2.9"/></c></r>
+<r><c l="2000"/><c l="Montana" cd="30" cf="f"/><c v="4,913"/><c v="903,773"/><c v="511.8" a="c"><l v="(497.5 - 526.3)"/><l v="7.3"/></c></r>
+<r><c l="2000"/><c l="Nebraska" cd="31" cf="f"/><c v="8,834"/><c v="1,713,820"/><c v="500.0" a="c"><l v="(489.6 - 510.5)"/><l v="5.3"/></c></r>
+<r><c l="2000"/><c l="Nevada" cd="32" cf="f"/><c v="9,839"/><c v="2,018,741"/><c v="523.7" a="c"><l v="(513.2 - 534.4)"/><l v="5.4"/></c></r>
+<r><c l="2000"/><c l="New Hampshire" cd="33" cf="f"/><c v="6,431"/><c v="1,239,882"/><c v="523.7" a="c"><l v="(510.9 - 536.7)"/><l v="6.5"/></c></r>
+<r><c l="2000"/><c l="New Jersey" cd="34" cf="f"/><c v="47,926"/><c v="8,430,621"/><c v="546.7" a="c"><l v="(541.8 - 551.6)"/><l v="2.5"/></c></r>
+<r><c l="2000"/><c l="New Mexico" cd="35" cf="f"/><c v="7,440"/><c v="1,821,204"/><c v="429.2" a="c"><l v="(419.5 - 439.1)"/><l v="5.0"/></c></r>
+<r><c l="2000"/><c l="New York" cd="36" cf="f"/><c v="100,491"/><c v="19,001,780"/><c v="519.0" a="c"><l v="(515.8 - 522.2)"/><l v="1.6"/></c></r>
+<r><c l="2000"/><c l="North Carolina" cd="37" cf="f"/><c v="37,418"/><c v="8,081,614"/><c v="471.3" a="c"><l v="(466.5 - 476.1)"/><l v="2.4"/></c></r>
+<r><c l="2000"/><c l="North Dakota" cd="38" cf="f"/><c v="3,265"/><c v="642,023"/><c v="468.8" a="c"><l v="(452.8 - 485.3)"/><l v="8.3"/></c></r>
+<r><c l="2000"/><c l="Ohio" cd="39" cf="f"/><c v="57,413"/><c v="11,363,543"/><c v="487.0" a="c"><l v="(483.0 - 491.0)"/><l v="2.0"/></c></r>
+<r><c l="2000"/><c l="Oklahoma" cd="40" cf="f"/><c v="16,727"/><c v="3,454,365"/><c v="470.1" a="c"><l v="(463.0 - 477.2)"/><l v="3.6"/></c></r>
+<r><c l="2000"/><c l="Oregon" cd="41" cf="f"/><c v="17,978"/><c v="3,429,708"/><c v="512.0" a="c"><l v="(504.5 - 519.5)"/><l v="3.8"/></c></r>
+<r><c l="2000"/><c l="Pennsylvania" cd="42" cf="f"/><c v="73,452"/><c v="12,284,173"/><c v="519.5" a="c"><l v="(515.8 - 523.3)"/><l v="1.9"/></c></r>
+<r><c l="2000"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,363"/><c v="1,050,268"/><c v="557.6" a="c"><l v="(543.9 - 571.5)"/><l v="7.0"/></c></r>
+<r><c l="2000"/><c l="South Carolina" cd="45" cf="f"/><c v="19,462"/><c v="4,024,223"/><c v="488.5" a="c"><l v="(481.6 - 495.4)"/><l v="3.5"/></c></r>
+<r><c l="2000"/><c l="South Dakota" cd="46" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2000"/><c l="Tennessee" cd="47" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2000"/><c l="Texas" cd="48" cf="f"/><c v="85,313"/><c v="20,944,499"/><c v="484.4" a="c"><l v="(481.1 - 487.7)"/><l v="1.7"/></c></r>
+<r><c l="2000"/><c l="Utah" cd="49" cf="f"/><c v="6,755"/><c v="2,244,502"/><c v="413.9" a="c"><l v="(404.1 - 424.0)"/><l v="5.1"/></c></r>
+<r><c l="2000"/><c l="Vermont" cd="50" cf="f"/><c v="3,227"/><c v="609,618"/><c v="510.5" a="c"><l v="(493.0 - 528.5)"/><l v="9.0"/></c></r>
+<r><c l="2000"/><c l="Virginia" cd="51" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2000"/><c l="Washington" cd="53" cf="f"/><c v="29,042"/><c v="5,910,512"/><c v="523.5" a="c"><l v="(517.4 - 529.5)"/><l v="3.1"/></c></r>
+<r><c l="2000"/><c l="West Virginia" cd="54" cf="f"/><c v="10,829"/><c v="1,807,021"/><c v="513.4" a="c"><l v="(503.7 - 523.2)"/><l v="5.0"/></c></r>
+<r><c l="2000"/><c l="Wisconsin" cd="55" cf="f"/><c v="27,488"/><c v="5,373,999"/><c v="501.6" a="c"><l v="(495.7 - 507.6)"/><l v="3.0"/></c></r>
+<r><c l="2000"/><c l="Wyoming" cd="56" cf="f"/><c v="2,288"/><c v="494,300"/><c v="476.4" a="c"><l v="(457.0 - 496.4)"/><l v="10.0"/></c></r>
+<r><c l="2000"/><c c="1"/><c dt="1,302,315"/><c dt="263,070,090"/><c dt="500.8" a="c"><l v="(500.0 - 501.7)"/><l v="0.4"/></c></r>
+<r><c l="2001"/><c l="Alabama" cd="01" cf="f"/><c v="21,699"/><c v="4,467,634"/><c v="467.8" a="c"><l v="(461.6 - 474.1)"/><l v="3.2"/></c></r>
+<r><c l="2001"/><c l="Alaska" cd="02" cf="f"/><c v="2,270"/><c v="633,714"/><c v="533.4" a="c"><l v="(509.6 - 558.0)"/><l v="12.3"/></c></r>
+<r><c l="2001"/><c l="Arizona" cd="04" cf="f"/><c v="23,873"/><c v="5,273,477"/><c v="450.9" a="c"><l v="(445.2 - 456.7)"/><l v="2.9"/></c></r>
+<r><c l="2001"/><c l="Arkansas" cd="05" cf="f"/><c v="13,582"/><c v="2,691,571"/><c v="469.3" a="c"><l v="(461.4 - 477.2)"/><l v="4.0"/></c></r>
+<r><c l="2001"/><c l="California" cd="06" cf="f"/><c v="146,644"/><c v="34,479,458"/><c v="480.7" a="c"><l v="(478.3 - 483.2)"/><l v="1.3"/></c></r>
+<r><c l="2001"/><c l="Colorado" cd="08" cf="f"/><c v="18,418"/><c v="4,425,687"/><c v="485.3" a="c"><l v="(478.2 - 492.4)"/><l v="3.6"/></c></r>
+<r><c l="2001"/><c l="Connecticut" cd="09" cf="f"/><c v="20,430"/><c v="3,432,835"/><c v="553.5" a="c"><l v="(545.9 - 561.2)"/><l v="3.9"/></c></r>
+<r><c l="2001"/><c l="Delaware" cd="10" cf="f"/><c v="4,449"/><c v="795,699"/><c v="543.2" a="c"><l v="(527.3 - 559.4)"/><l v="8.2"/></c></r>
+<r><c l="2001"/><c l="District of Columbia" cd="11" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Florida" cd="12" cf="f"/><c v="106,061"/><c v="16,356,966"/><c v="524.7" a="c"><l v="(521.5 - 527.9)"/><l v="1.6"/></c></r>
+<r><c l="2001"/><c l="Georgia" cd="13" cf="f"/><c v="35,533"/><c v="8,377,038"/><c v="497.3" a="c"><l v="(492.1 - 502.5)"/><l v="2.7"/></c></r>
+<r><c l="2001"/><c l="Hawaii" cd="15" cf="f"/><c v="5,832"/><c v="1,225,948"/><c v="453.3" a="c"><l v="(441.8 - 465.2)"/><l v="5.9"/></c></r>
+<r><c l="2001"/><c l="Idaho" cd="16" cf="f"/><c v="5,870"/><c v="1,319,962"/><c v="479.7" a="c"><l v="(467.5 - 492.2)"/><l v="6.3"/></c></r>
+<r><c l="2001"/><c l="Illinois" cd="17" cf="f"/><c v="62,868"/><c v="12,488,445"/><c v="519.7" a="c"><l v="(515.7 - 523.8)"/><l v="2.1"/></c></r>
+<r><c l="2001"/><c l="Indiana" cd="18" cf="f"/><c v="30,762"/><c v="6,127,760"/><c v="506.2" a="c"><l v="(500.6 - 511.9)"/><l v="2.9"/></c></r>
+<r><c l="2001"/><c l="Iowa" cd="19" cf="f"/><c v="16,608"/><c v="2,931,997"/><c v="508.2" a="c"><l v="(500.5 - 516.1)"/><l v="4.0"/></c></r>
+<r><c l="2001"/><c l="Kansas" cd="20" cf="f"/><c v="13,378"/><c v="2,702,162"/><c v="487.0" a="c"><l v="(478.7 - 495.3)"/><l v="4.2"/></c></r>
+<r><c l="2001"/><c l="Kentucky" cd="21" cf="f"/><c v="22,431"/><c v="4,068,132"/><c v="544.2" a="c"><l v="(537.1 - 551.4)"/><l v="3.6"/></c></r>
+<r><c l="2001"/><c l="Louisiana" cd="22" cf="f"/><c v="21,944"/><c v="4,477,875"/><c v="516.9" a="c"><l v="(510.1 - 523.8)"/><l v="3.5"/></c></r>
+<r><c l="2001"/><c l="Maine" cd="23" cf="f"/><c v="8,110"/><c v="1,285,692"/><c v="559.1" a="c"><l v="(547.0 - 571.4)"/><l v="6.2"/></c></r>
+<r><c l="2001"/><c l="Maryland" cd="24" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Massachusetts" cd="25" cf="f"/><c v="36,922"/><c v="6,397,634"/><c v="551.5" a="c"><l v="(545.8 - 557.1)"/><l v="2.9"/></c></r>
+<r><c l="2001"/><c l="Michigan" cd="26" cf="f"/><c v="53,736"/><c v="9,991,120"/><c v="541.6" a="c"><l v="(537.1 - 546.2)"/><l v="2.3"/></c></r>
+<r><c l="2001"/><c l="Minnesota" cd="27" cf="f"/><c v="24,402"/><c v="4,982,796"/><c v="505.3" a="c"><l v="(499.0 - 511.7)"/><l v="3.2"/></c></r>
+<r><c l="2001"/><c l="Mississippi" cd="28" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Missouri" cd="29" cf="f"/><c v="29,063"/><c v="5,641,142"/><c v="491.3" a="c"><l v="(485.6 - 497.0)"/><l v="2.9"/></c></r>
+<r><c l="2001"/><c l="Montana" cd="30" cf="f"/><c v="5,147"/><c v="906,961"/><c v="526.9" a="c"><l v="(512.6 - 541.6)"/><l v="7.4"/></c></r>
+<r><c l="2001"/><c l="Nebraska" cd="31" cf="f"/><c v="8,915"/><c v="1,719,836"/><c v="499.4" a="c"><l v="(489.0 - 509.9)"/><l v="5.3"/></c></r>
+<r><c l="2001"/><c l="Nevada" cd="32" cf="f"/><c v="10,133"/><c v="2,098,399"/><c v="513.4" a="c"><l v="(503.3 - 523.7)"/><l v="5.2"/></c></r>
+<r><c l="2001"/><c l="New Hampshire" cd="33" cf="f"/><c v="6,794"/><c v="1,255,517"/><c v="542.6" a="c"><l v="(529.7 - 555.7)"/><l v="6.6"/></c></r>
+<r><c l="2001"/><c l="New Jersey" cd="34" cf="f"/><c v="50,274"/><c v="8,492,671"/><c v="568.0" a="c"><l v="(563.1 - 573.0)"/><l v="2.5"/></c></r>
+<r><c l="2001"/><c l="New Mexico" cd="35" cf="f"/><c v="7,822"/><c v="1,831,690"/><c v="441.0" a="c"><l v="(431.3 - 450.9)"/><l v="5.0"/></c></r>
+<r><c l="2001"/><c l="New York" cd="36" cf="f"/><c v="101,336"/><c v="19,082,838"/><c v="518.0" a="c"><l v="(514.8 - 521.2)"/><l v="1.6"/></c></r>
+<r><c l="2001"/><c l="North Carolina" cd="37" cf="f"/><c v="38,345"/><c v="8,210,122"/><c v="474.3" a="c"><l v="(469.5 - 479.0)"/><l v="2.4"/></c></r>
+<r><c l="2001"/><c l="North Dakota" cd="38" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Ohio" cd="39" cf="f"/><c v="59,354"/><c v="11,387,404"/><c v="499.6" a="c"><l v="(495.6 - 503.6)"/><l v="2.1"/></c></r>
+<r><c l="2001"/><c l="Oklahoma" cd="40" cf="f"/><c v="17,243"/><c v="3,467,100"/><c v="480.8" a="c"><l v="(473.7 - 488.1)"/><l v="3.7"/></c></r>
+<r><c l="2001"/><c l="Oregon" cd="41" cf="f"/><c v="18,456"/><c v="3,467,937"/><c v="516.3" a="c"><l v="(508.9 - 523.8)"/><l v="3.8"/></c></r>
+<r><c l="2001"/><c l="Pennsylvania" cd="42" cf="f"/><c v="76,752"/><c v="12,298,970"/><c v="540.0" a="c"><l v="(536.2 - 543.9)"/><l v="2.0"/></c></r>
+<r><c l="2001"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,360"/><c v="1,057,142"/><c v="552.4" a="c"><l v="(538.8 - 566.2)"/><l v="7.0"/></c></r>
+<r><c l="2001"/><c l="South Carolina" cd="45" cf="f"/><c v="20,303"/><c v="4,064,995"/><c v="500.2" a="c"><l v="(493.3 - 507.1)"/><l v="3.5"/></c></r>
+<r><c l="2001"/><c l="South Dakota" cd="46" cf="f"/><c v="4,014"/><c v="757,972"/><c v="492.7" a="c"><l v="(477.5 - 508.3)"/><l v="7.8"/></c></r>
+<r><c l="2001"/><c l="Tennessee" cd="47" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Texas" cd="48" cf="f"/><c v="89,847"/><c v="21,319,622"/><c v="499.4" a="c"><l v="(496.2 - 502.7)"/><l v="1.7"/></c></r>
+<r><c l="2001"/><c l="Utah" cd="49" cf="f"/><c v="7,229"/><c v="2,283,715"/><c v="432.5" a="c"><l v="(422.5 - 442.7)"/><l v="5.1"/></c></r>
+<r><c l="2001"/><c l="Vermont" cd="50" cf="f"/><c v="3,325"/><c v="612,223"/><c v="517.2" a="c"><l v="(499.7 - 535.1)"/><l v="9.0"/></c></r>
+<r><c l="2001"/><c l="Virginia" cd="51" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2001"/><c l="Washington" cd="53" cf="f"/><c v="30,377"/><c v="5,985,722"/><c v="537.2" a="c"><l v="(531.2 - 543.3)"/><l v="3.1"/></c></r>
+<r><c l="2001"/><c l="West Virginia" cd="54" cf="f"/><c v="11,168"/><c v="1,801,481"/><c v="525.9" a="c"><l v="(516.1 - 535.8)"/><l v="5.0"/></c></r>
+<r><c l="2001"/><c l="Wisconsin" cd="55" cf="f"/><c v="28,943"/><c v="5,406,835"/><c v="522.0" a="c"><l v="(516.0 - 528.1)"/><l v="3.1"/></c></r>
+<r><c l="2001"/><c l="Wyoming" cd="56" cf="f"/><c v="2,273"/><c v="494,657"/><c v="466.3" a="c"><l v="(447.3 - 486.0)"/><l v="9.8"/></c></r>
+<r><c l="2001"/><c c="1"/><c dt="1,329,295"/><c dt="262,578,553"/><c dt="509.0" a="c"><l v="(508.2 - 509.9)"/><l v="0.4"/></c></r>
+<r><c l="2002"/><c l="Alabama" cd="01" cf="f"/><c v="22,091"/><c v="4,480,089"/><c v="470.4" a="c"><l v="(464.2 - 476.6)"/><l v="3.2"/></c></r>
+<r><c l="2002"/><c l="Alaska" cd="02" cf="f"/><c v="2,343"/><c v="642,337"/><c v="522.2" a="c"><l v="(499.3 - 545.9)"/><l v="11.8"/></c></r>
+<r><c l="2002"/><c l="Arizona" cd="04" cf="f"/><c v="23,940"/><c v="5,396,255"/><c v="439.8" a="c"><l v="(434.2 - 445.4)"/><l v="2.8"/></c></r>
+<r><c l="2002"/><c l="Arkansas" cd="05" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2002"/><c l="California" cd="06" cf="f"/><c v="148,398"/><c v="34,871,843"/><c v="476.3" a="c"><l v="(473.8 - 478.7)"/><l v="1.2"/></c></r>
+<r><c l="2002"/><c l="Colorado" cd="08" cf="f"/><c v="18,636"/><c v="4,490,406"/><c v="478.6" a="c"><l v="(471.7 - 485.6)"/><l v="3.6"/></c></r>
+<r><c l="2002"/><c l="Connecticut" cd="09" cf="f"/><c v="20,378"/><c v="3,458,749"/><c v="544.4" a="c"><l v="(536.9 - 552.0)"/><l v="3.8"/></c></r>
+<r><c l="2002"/><c l="Delaware" cd="10" cf="f"/><c v="4,503"/><c v="806,169"/><c v="534.5" a="c"><l v="(519.0 - 550.4)"/><l v="8.0"/></c></r>
+<r><c l="2002"/><c l="District of Columbia" cd="11" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2002"/><c l="Florida" cd="12" cf="f"/><c v="105,136"/><c v="16,689,370"/><c v="509.9" a="c"><l v="(506.8 - 513.0)"/><l v="1.6"/></c></r>
+<r><c l="2002"/><c l="Georgia" cd="13" cf="f"/><c v="36,641"/><c v="8,508,256"/><c v="499.1" a="c"><l v="(493.9 - 504.3)"/><l v="2.6"/></c></r>
+<r><c l="2002"/><c l="Hawaii" cd="15" cf="f"/><c v="5,884"/><c v="1,239,613"/><c v="446.5" a="c"><l v="(435.2 - 458.1)"/><l v="5.8"/></c></r>
+<r><c l="2002"/><c l="Idaho" cd="16" cf="f"/><c v="6,113"/><c v="1,340,372"/><c v="486.3" a="c"><l v="(474.1 - 498.6)"/><l v="6.2"/></c></r>
+<r><c l="2002"/><c l="Illinois" cd="17" cf="f"/><c v="64,208"/><c v="12,525,556"/><c v="525.6" a="c"><l v="(521.6 - 529.7)"/><l v="2.1"/></c></r>
+<r><c l="2002"/><c l="Indiana" cd="18" cf="f"/><c v="31,130"/><c v="6,155,967"/><c v="506.0" a="c"><l v="(500.4 - 511.7)"/><l v="2.9"/></c></r>
+<r><c l="2002"/><c l="Iowa" cd="19" cf="f"/><c v="16,745"/><c v="2,934,234"/><c v="510.0" a="c"><l v="(502.3 - 517.9)"/><l v="4.0"/></c></r>
+<r><c l="2002"/><c l="Kansas" cd="20" cf="f"/><c v="13,422"/><c v="2,713,535"/><c v="483.5" a="c"><l v="(475.4 - 491.8)"/><l v="4.2"/></c></r>
+<r><c l="2002"/><c l="Kentucky" cd="21" cf="f"/><c v="22,421"/><c v="4,089,875"/><c v="536.5" a="c"><l v="(529.4 - 543.5)"/><l v="3.6"/></c></r>
+<r><c l="2002"/><c l="Louisiana" cd="22" cf="f"/><c v="22,064"/><c v="4,497,267"/><c v="511.8" a="c"><l v="(505.1 - 518.6)"/><l v="3.5"/></c></r>
+<r><c l="2002"/><c l="Maine" cd="23" cf="f"/><c v="8,169"/><c v="1,295,960"/><c v="553.1" a="c"><l v="(541.2 - 565.3)"/><l v="6.1"/></c></r>
+<r><c l="2002"/><c l="Maryland" cd="24" cf="f"/><c v="27,267"/><c v="5,440,389"/><c v="515.2" a="c"><l v="(509.0 - 521.3)"/><l v="3.1"/></c></r>
+<r><c l="2002"/><c l="Massachusetts" cd="25" cf="f"/><c v="37,654"/><c v="6,417,206"/><c v="556.0" a="c"><l v="(550.4 - 561.6)"/><l v="2.9"/></c></r>
+<r><c l="2002"/><c l="Michigan" cd="26" cf="f"/><c v="54,744"/><c v="10,015,710"/><c v="544.1" a="c"><l v="(539.5 - 548.6)"/><l v="2.3"/></c></r>
+<r><c l="2002"/><c l="Minnesota" cd="27" cf="f"/><c v="24,562"/><c v="5,018,935"/><c v="499.4" a="c"><l v="(493.1 - 505.7)"/><l v="3.2"/></c></r>
+<r><c l="2002"/><c l="Mississippi" cd="28" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2002"/><c l="Missouri" cd="29" cf="f"/><c v="29,397"/><c v="5,674,825"/><c v="490.8" a="c"><l v="(485.2 - 496.5)"/><l v="2.9"/></c></r>
+<r><c l="2002"/><c l="Montana" cd="30" cf="f"/><c v="5,128"/><c v="911,667"/><c v="516.8" a="c"><l v="(502.7 - 531.2)"/><l v="7.2"/></c></r>
+<r><c l="2002"/><c l="Nebraska" cd="31" cf="f"/><c v="9,041"/><c v="1,728,292"/><c v="502.5" a="c"><l v="(492.1 - 513.0)"/><l v="5.3"/></c></r>
+<r><c l="2002"/><c l="Nevada" cd="32" cf="f"/><c v="10,532"/><c v="2,173,791"/><c v="510.6" a="c"><l v="(500.7 - 520.7)"/><l v="5.1"/></c></r>
+<r><c l="2002"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,132"/><c v="1,269,089"/><c v="558.0" a="c"><l v="(545.0 - 571.1)"/><l v="6.6"/></c></r>
+<r><c l="2002"/><c l="New Jersey" cd="34" cf="f"/><c v="49,984"/><c v="8,552,643"/><c v="557.7" a="c"><l v="(552.8 - 562.6)"/><l v="2.5"/></c></r>
+<r><c l="2002"/><c l="New Mexico" cd="35" cf="f"/><c v="8,069"/><c v="1,855,309"/><c v="443.7" a="c"><l v="(434.1 - 453.6)"/><l v="5.0"/></c></r>
+<r><c l="2002"/><c l="New York" cd="36" cf="f"/><c v="102,591"/><c v="19,137,800"/><c v="518.1" a="c"><l v="(515.0 - 521.3)"/><l v="1.6"/></c></r>
+<r><c l="2002"/><c l="North Carolina" cd="37" cf="f"/><c v="38,954"/><c v="8,326,201"/><c v="469.9" a="c"><l v="(465.3 - 474.6)"/><l v="2.4"/></c></r>
+<r><c l="2002"/><c l="North Dakota" cd="38" cf="f"/><c v="3,369"/><c v="638,168"/><c v="477.3" a="c"><l v="(461.2 - 493.9)"/><l v="8.3"/></c></r>
+<r><c l="2002"/><c l="Ohio" cd="39" cf="f"/><c v="59,780"/><c v="11,407,889"/><c v="497.6" a="c"><l v="(493.7 - 501.7)"/><l v="2.0"/></c></r>
+<r><c l="2002"/><c l="Oklahoma" cd="40" cf="f"/><c v="17,778"/><c v="3,489,080"/><c v="490.1" a="c"><l v="(482.9 - 497.3)"/><l v="3.7"/></c></r>
+<r><c l="2002"/><c l="Oregon" cd="41" cf="f"/><c v="18,444"/><c v="3,513,424"/><c v="503.7" a="c"><l v="(496.4 - 511.0)"/><l v="3.7"/></c></r>
+<r><c l="2002"/><c l="Pennsylvania" cd="42" cf="f"/><c v="76,272"/><c v="12,331,031"/><c v="532.8" a="c"><l v="(529.0 - 536.6)"/><l v="1.9"/></c></r>
+<r><c l="2002"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,413"/><c v="1,065,995"/><c v="553.1" a="c"><l v="(539.6 - 566.9)"/><l v="6.9"/></c></r>
+<r><c l="2002"/><c l="South Carolina" cd="45" cf="f"/><c v="21,526"/><c v="4,107,795"/><c v="519.1" a="c"><l v="(512.1 - 526.1)"/><l v="3.6"/></c></r>
+<r><c l="2002"/><c l="South Dakota" cd="46" cf="f"/><c v="4,413"/><c v="760,020"/><c v="537.7" a="c"><l v="(521.9 - 553.9)"/><l v="8.1"/></c></r>
+<r><c l="2002"/><c l="Tennessee" cd="47" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2002"/><c l="Texas" cd="48" cf="f"/><c v="91,073"/><c v="21,690,325"/><c v="493.7" a="c"><l v="(490.5 - 497.0)"/><l v="1.6"/></c></r>
+<r><c l="2002"/><c l="Utah" cd="49" cf="f"/><c v="7,371"/><c v="2,324,815"/><c v="427.7" a="c"><l v="(417.9 - 437.6)"/><l v="5.0"/></c></r>
+<r><c l="2002"/><c l="Vermont" cd="50" cf="f"/><c v="3,328"/><c v="615,442"/><c v="507.3" a="c"><l v="(490.2 - 525.0)"/><l v="8.8"/></c></r>
+<r><c l="2002"/><c l="Virginia" cd="51" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2002"/><c l="Washington" cd="53" cf="f"/><c v="30,694"/><c v="6,052,349"/><c v="529.6" a="c"><l v="(523.7 - 535.6)"/><l v="3.0"/></c></r>
+<r><c l="2002"/><c l="West Virginia" cd="54" cf="f"/><c v="11,001"/><c v="1,805,414"/><c v="512.8" a="c"><l v="(503.3 - 522.6)"/><l v="4.9"/></c></r>
+<r><c l="2002"/><c l="Wisconsin" cd="55" cf="f"/><c v="28,179"/><c v="5,445,162"/><c v="500.7" a="c"><l v="(494.8 - 506.6)"/><l v="3.0"/></c></r>
+<r><c l="2002"/><c l="Wyoming" cd="56" cf="f"/><c v="2,297"/><c v="500,017"/><c v="458.0" a="c"><l v="(439.3 - 477.2)"/><l v="9.6"/></c></r>
+<r><c l="2002"/><c c="1"/><c dt="1,359,215"/><c dt="268,404,636"/><c dt="505.8" a="c"><l v="(504.9 - 506.6)"/><l v="0.4"/></c></r>
+<r><c l="2003"/><c l="Alabama" cd="01" cf="f"/><c v="21,441"/><c v="4,503,491"/><c v="450.6" a="c"><l v="(444.6 - 456.7)"/><l v="3.1"/></c></r>
+<r><c l="2003"/><c l="Alaska" cd="02" cf="f"/><c v="2,356"/><c v="648,414"/><c v="510.6" a="c"><l v="(488.2 - 533.7)"/><l v="11.6"/></c></r>
+<r><c l="2003"/><c l="Arizona" cd="04" cf="f"/><c v="24,222"/><c v="5,510,364"/><c v="432.1" a="c"><l v="(426.7 - 437.6)"/><l v="2.8"/></c></r>
+<r><c l="2003"/><c l="Arkansas" cd="05" cf="f"/><c v="14,204"/><c v="2,724,816"/><c v="478.3" a="c"><l v="(470.5 - 486.3)"/><l v="4.0"/></c></r>
+<r><c l="2003"/><c l="California" cd="06" cf="f"/><c v="146,821"/><c v="35,253,159"/><c v="460.8" a="c"><l v="(458.4 - 463.2)"/><l v="1.2"/></c></r>
+<r><c l="2003"/><c l="Colorado" cd="08" cf="f"/><c v="18,718"/><c v="4,528,732"/><c v="467.7" a="c"><l v="(461.0 - 474.6)"/><l v="3.5"/></c></r>
+<r><c l="2003"/><c l="Connecticut" cd="09" cf="f"/><c v="20,331"/><c v="3,484,336"/><c v="535.4" a="c"><l v="(528.0 - 542.8)"/><l v="3.8"/></c></r>
+<r><c l="2003"/><c l="Delaware" cd="10" cf="f"/><c v="4,475"/><c v="818,003"/><c v="518.1" a="c"><l v="(503.0 - 533.6)"/><l v="7.8"/></c></r>
+<r><c l="2003"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,157"/><c v="568,502"/><c v="560.3" a="c"><l v="(540.8 - 580.3)"/><l v="10.0"/></c></r>
+<r><c l="2003"/><c l="Florida" cd="12" cf="f"/><c v="103,846"/><c v="17,004,085"/><c v="493.9" a="c"><l v="(490.8 - 496.9)"/><l v="1.5"/></c></r>
+<r><c l="2003"/><c l="Georgia" cd="13" cf="f"/><c v="36,895"/><c v="8,622,793"/><c v="490.4" a="c"><l v="(485.3 - 495.5)"/><l v="2.6"/></c></r>
+<r><c l="2003"/><c l="Hawaii" cd="15" cf="f"/><c v="5,950"/><c v="1,251,154"/><c v="441.5" a="c"><l v="(430.3 - 452.9)"/><l v="5.7"/></c></r>
+<r><c l="2003"/><c l="Idaho" cd="16" cf="f"/><c v="6,164"/><c v="1,363,380"/><c v="476.8" a="c"><l v="(464.9 - 488.9)"/><l v="6.1"/></c></r>
+<r><c l="2003"/><c l="Illinois" cd="17" cf="f"/><c v="62,800"/><c v="12,556,006"/><c v="507.8" a="c"><l v="(503.9 - 511.8)"/><l v="2.0"/></c></r>
+<r><c l="2003"/><c l="Indiana" cd="18" cf="f"/><c v="31,137"/><c v="6,196,638"/><c v="498.2" a="c"><l v="(492.6 - 503.7)"/><l v="2.8"/></c></r>
+<r><c l="2003"/><c l="Iowa" cd="19" cf="f"/><c v="16,469"/><c v="2,941,999"/><c v="498.1" a="c"><l v="(490.4 - 505.8)"/><l v="3.9"/></c></r>
+<r><c l="2003"/><c l="Kansas" cd="20" cf="f"/><c v="13,844"/><c v="2,723,004"/><c v="493.6" a="c"><l v="(485.4 - 501.9)"/><l v="4.2"/></c></r>
+<r><c l="2003"/><c l="Kentucky" cd="21" cf="f"/><c v="22,528"/><c v="4,117,170"/><c v="530.2" a="c"><l v="(523.3 - 537.2)"/><l v="3.5"/></c></r>
+<r><c l="2003"/><c l="Louisiana" cd="22" cf="f"/><c v="22,125"/><c v="4,521,042"/><c v="505.2" a="c"><l v="(498.5 - 511.9)"/><l v="3.4"/></c></r>
+<r><c l="2003"/><c l="Maine" cd="23" cf="f"/><c v="8,197"/><c v="1,306,513"/><c v="545.7" a="c"><l v="(533.9 - 557.7)"/><l v="6.1"/></c></r>
+<r><c l="2003"/><c l="Maryland" cd="24" cf="f"/><c v="28,127"/><c v="5,496,269"/><c v="520.3" a="c"><l v="(514.2 - 526.5)"/><l v="3.1"/></c></r>
+<r><c l="2003"/><c l="Massachusetts" cd="25" cf="f"/><c v="36,833"/><c v="6,422,565"/><c v="538.7" a="c"><l v="(533.2 - 544.3)"/><l v="2.8"/></c></r>
+<r><c l="2003"/><c l="Michigan" cd="26" cf="f"/><c v="54,933"/><c v="10,041,152"/><c v="538.2" a="c"><l v="(533.7 - 542.8)"/><l v="2.3"/></c></r>
+<r><c l="2003"/><c l="Minnesota" cd="27" cf="f"/><c v="24,499"/><c v="5,053,572"/><c v="489.0" a="c"><l v="(482.9 - 495.2)"/><l v="3.1"/></c></r>
+<r><c l="2003"/><c l="Mississippi" cd="28" cf="f"/><c v="13,506"/><c v="2,868,312"/><c v="475.5" a="c"><l v="(467.5 - 483.7)"/><l v="4.1"/></c></r>
+<r><c l="2003"/><c l="Missouri" cd="29" cf="f"/><c v="29,637"/><c v="5,709,403"/><c v="488.1" a="c"><l v="(482.6 - 493.7)"/><l v="2.8"/></c></r>
+<r><c l="2003"/><c l="Montana" cd="30" cf="f"/><c v="5,129"/><c v="919,630"/><c v="506.8" a="c"><l v="(492.9 - 520.9)"/><l v="7.1"/></c></r>
+<r><c l="2003"/><c l="Nebraska" cd="31" cf="f"/><c v="8,855"/><c v="1,738,643"/><c v="487.5" a="c"><l v="(477.3 - 497.8)"/><l v="5.2"/></c></r>
+<r><c l="2003"/><c l="Nevada" cd="32" cf="f"/><c v="10,520"/><c v="2,248,850"/><c v="486.2" a="c"><l v="(476.8 - 495.8)"/><l v="4.8"/></c></r>
+<r><c l="2003"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,045"/><c v="1,279,840"/><c v="538.5" a="c"><l v="(525.9 - 551.3)"/><l v="6.5"/></c></r>
+<r><c l="2003"/><c l="New Jersey" cd="34" cf="f"/><c v="48,276"/><c v="8,601,402"/><c v="532.4" a="c"><l v="(527.7 - 537.2)"/><l v="2.4"/></c></r>
+<r><c l="2003"/><c l="New Mexico" cd="35" cf="f"/><c v="8,013"/><c v="1,877,574"/><c v="429.4" a="c"><l v="(420.0 - 438.9)"/><l v="4.8"/></c></r>
+<r><c l="2003"/><c l="New York" cd="36" cf="f"/><c v="103,132"/><c v="19,175,939"/><c v="515.5" a="c"><l v="(512.3 - 518.7)"/><l v="1.6"/></c></r>
+<r><c l="2003"/><c l="North Carolina" cd="37" cf="f"/><c v="39,892"/><c v="8,422,501"/><c v="469.5" a="c"><l v="(464.9 - 474.1)"/><l v="2.4"/></c></r>
+<r><c l="2003"/><c l="North Dakota" cd="38" cf="f"/><c v="3,362"/><c v="638,817"/><c v="474.7" a="c"><l v="(458.7 - 491.2)"/><l v="8.3"/></c></r>
+<r><c l="2003"/><c l="Ohio" cd="39" cf="f"/><c v="58,809"/><c v="11,434,788"/><c v="483.6" a="c"><l v="(479.7 - 487.6)"/><l v="2.0"/></c></r>
+<r><c l="2003"/><c l="Oklahoma" cd="40" cf="f"/><c v="18,444"/><c v="3,504,892"/><c v="502.7" a="c"><l v="(495.5 - 510.1)"/><l v="3.7"/></c></r>
+<r><c l="2003"/><c l="Oregon" cd="41" cf="f"/><c v="18,135"/><c v="3,547,376"/><c v="484.5" a="c"><l v="(477.5 - 491.7)"/><l v="3.6"/></c></r>
+<r><c l="2003"/><c l="Pennsylvania" cd="42" cf="f"/><c v="75,175"/><c v="12,374,658"/><c v="520.6" a="c"><l v="(516.8 - 524.3)"/><l v="1.9"/></c></r>
+<r><c l="2003"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,185"/><c v="1,071,342"/><c v="527.9" a="c"><l v="(514.8 - 541.4)"/><l v="6.8"/></c></r>
+<r><c l="2003"/><c l="South Carolina" cd="45" cf="f"/><c v="21,221"/><c v="4,150,297"/><c v="499.0" a="c"><l v="(492.2 - 505.8)"/><l v="3.4"/></c></r>
+<r><c l="2003"/><c l="South Dakota" cd="46" cf="f"/><c v="4,086"/><c v="763,729"/><c v="493.2" a="c"><l v="(478.1 - 508.6)"/><l v="7.8"/></c></r>
+<r><c l="2003"/><c l="Tennessee" cd="47" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2003"/><c l="Texas" cd="48" cf="f"/><c v="92,152"/><c v="22,030,931"/><c v="488.0" a="c"><l v="(484.8 - 491.2)"/><l v="1.6"/></c></r>
+<r><c l="2003"/><c l="Utah" cd="49" cf="f"/><c v="7,698"/><c v="2,360,137"/><c v="434.9" a="c"><l v="(425.1 - 444.8)"/><l v="5.0"/></c></r>
+<r><c l="2003"/><c l="Vermont" cd="50" cf="f"/><c v="3,481"/><c v="617,858"/><c v="523.9" a="c"><l v="(506.5 - 541.7)"/><l v="8.9"/></c></r>
+<r><c l="2003"/><c l="Virginia" cd="51" cf="f"/><c v="34,037"/><c v="7,366,977"/><c v="473.4" a="c"><l v="(468.3 - 478.5)"/><l v="2.6"/></c></r>
+<r><c l="2003"/><c l="Washington" cd="53" cf="f"/><c v="30,863"/><c v="6,104,115"/><c v="521.4" a="c"><l v="(515.6 - 527.3)"/><l v="3.0"/></c></r>
+<r><c l="2003"/><c l="West Virginia" cd="54" cf="f"/><c v="10,766"/><c v="1,812,295"/><c v="497.0" a="c"><l v="(487.6 - 506.6)"/><l v="4.8"/></c></r>
+<r><c l="2003"/><c l="Wisconsin" cd="55" cf="f"/><c v="28,314"/><c v="5,479,203"/><c v="495.0" a="c"><l v="(489.2 - 500.8)"/><l v="2.9"/></c></r>
+<r><c l="2003"/><c l="Wyoming" cd="56" cf="f"/><c v="2,421"/><c v="503,453"/><c v="472.6" a="c"><l v="(453.8 - 492.0)"/><l v="9.7"/></c></r>
+<r><c l="2003"/><c c="1"/><c dt="1,419,226"/><c dt="284,260,121"/><c dt="494.4" a="c"><l v="(493.5 - 495.2)"/><l v="0.4"/></c></r>
+<r><c l="2004"/><c l="Alabama" cd="01" cf="f"/><c v="22,894"/><c v="4,530,729"/><c v="473.9" a="c"><l v="(467.8 - 480.1)"/><l v="3.1"/></c></r>
+<r><c l="2004"/><c l="Alaska" cd="02" cf="f"/><c v="2,537"/><c v="659,286"/><c v="530.4" a="c"><l v="(508.1 - 553.4)"/><l v="11.5"/></c></r>
+<r><c l="2004"/><c l="Arizona" cd="04" cf="f"/><c v="24,798"/><c v="5,652,404"/><c v="428.5" a="c"><l v="(423.2 - 433.9)"/><l v="2.7"/></c></r>
+<r><c l="2004"/><c l="Arkansas" cd="05" cf="f"/><c v="14,253"/><c v="2,749,686"/><c v="473.2" a="c"><l v="(465.4 - 481.1)"/><l v="4.0"/></c></r>
+<r><c l="2004"/><c l="California" cd="06" cf="f"/><c v="150,827"/><c v="35,574,576"/><c v="465.0" a="c"><l v="(462.7 - 467.4)"/><l v="1.2"/></c></r>
+<r><c l="2004"/><c l="Colorado" cd="08" cf="f"/><c v="19,047"/><c v="4,575,013"/><c v="463.0" a="c"><l v="(456.3 - 469.7)"/><l v="3.4"/></c></r>
+<r><c l="2004"/><c l="Connecticut" cd="09" cf="f"/><c v="20,292"/><c v="3,496,094"/><c v="528.6" a="c"><l v="(521.3 - 536.0)"/><l v="3.7"/></c></r>
+<r><c l="2004"/><c l="Delaware" cd="10" cf="f"/><c v="4,668"/><c v="830,803"/><c v="527.1" a="c"><l v="(512.0 - 542.5)"/><l v="7.7"/></c></r>
+<r><c l="2004"/><c l="District of Columbia" cd="11" cf="f"/><c v="2,850"/><c v="567,754"/><c v="506.4" a="c"><l v="(487.9 - 525.5)"/><l v="9.6"/></c></r>
+<r><c l="2004"/><c l="Florida" cd="12" cf="f"/><c v="103,979"/><c v="17,415,318"/><c v="482.8" a="c"><l v="(479.9 - 485.8)"/><l v="1.5"/></c></r>
+<r><c l="2004"/><c l="Georgia" cd="13" cf="f"/><c v="37,934"/><c v="8,769,252"/><c v="491.4" a="c"><l v="(486.4 - 496.4)"/><l v="2.6"/></c></r>
+<r><c l="2004"/><c l="Hawaii" cd="15" cf="f"/><c v="6,248"/><c v="1,273,569"/><c v="452.4" a="c"><l v="(441.2 - 463.8)"/><l v="5.7"/></c></r>
+<r><c l="2004"/><c l="Idaho" cd="16" cf="f"/><c v="6,358"/><c v="1,391,802"/><c v="476.7" a="c"><l v="(465.0 - 488.7)"/><l v="6.0"/></c></r>
+<r><c l="2004"/><c l="Illinois" cd="17" cf="f"/><c v="63,525"/><c v="12,589,773"/><c v="508.7" a="c"><l v="(504.7 - 512.7)"/><l v="2.0"/></c></r>
+<r><c l="2004"/><c l="Indiana" cd="18" cf="f"/><c v="30,958"/><c v="6,233,007"/><c v="488.9" a="c"><l v="(483.4 - 494.3)"/><l v="2.8"/></c></r>
+<r><c l="2004"/><c l="Iowa" cd="19" cf="f"/><c v="16,709"/><c v="2,953,635"/><c v="499.2" a="c"><l v="(491.6 - 506.9)"/><l v="3.9"/></c></r>
+<r><c l="2004"/><c l="Kansas" cd="20" cf="f"/><c v="14,053"/><c v="2,734,373"/><c v="495.5" a="c"><l v="(487.3 - 503.8)"/><l v="4.2"/></c></r>
+<r><c l="2004"/><c l="Kentucky" cd="21" cf="f"/><c v="23,032"/><c v="4,146,101"/><c v="534.0" a="c"><l v="(527.1 - 541.0)"/><l v="3.5"/></c></r>
+<r><c l="2004"/><c l="Louisiana" cd="22" cf="f"/><c v="22,632"/><c v="4,552,238"/><c v="509.3" a="c"><l v="(502.7 - 516.0)"/><l v="3.4"/></c></r>
+<r><c l="2004"/><c l="Maine" cd="23" cf="f"/><c v="8,585"/><c v="1,313,688"/><c v="560.1" a="c"><l v="(548.3 - 572.2)"/><l v="6.1"/></c></r>
+<r><c l="2004"/><c l="Maryland" cd="24" cf="f"/><c v="26,381"/><c v="5,546,935"/><c v="479.3" a="c"><l v="(473.5 - 485.2)"/><l v="3.0"/></c></r>
+<r><c l="2004"/><c l="Massachusetts" cd="25" cf="f"/><c v="37,089"/><c v="6,412,281"/><c v="537.9" a="c"><l v="(532.5 - 543.5)"/><l v="2.8"/></c></r>
+<r><c l="2004"/><c l="Michigan" cd="26" cf="f"/><c v="53,859"/><c v="10,055,315"/><c v="520.6" a="c"><l v="(516.2 - 525.0)"/><l v="2.3"/></c></r>
+<r><c l="2004"/><c l="Minnesota" cd="27" cf="f"/><c v="25,302"/><c v="5,087,713"/><c v="496.6" a="c"><l v="(490.5 - 502.8)"/><l v="3.1"/></c></r>
+<r><c l="2004"/><c l="Mississippi" cd="28" cf="f"/><c v="13,805"/><c v="2,889,010"/><c v="478.3" a="c"><l v="(470.4 - 486.4)"/><l v="4.1"/></c></r>
+<r><c l="2004"/><c l="Missouri" cd="29" cf="f"/><c v="29,667"/><c v="5,747,741"/><c v="482.9" a="c"><l v="(477.4 - 488.5)"/><l v="2.8"/></c></r>
+<r><c l="2004"/><c l="Montana" cd="30" cf="f"/><c v="5,067"/><c v="930,009"/><c v="488.2" a="c"><l v="(474.7 - 501.9)"/><l v="6.9"/></c></r>
+<r><c l="2004"/><c l="Nebraska" cd="31" cf="f"/><c v="9,049"/><c v="1,749,370"/><c v="492.7" a="c"><l v="(482.5 - 503.0)"/><l v="5.2"/></c></r>
+<r><c l="2004"/><c l="Nevada" cd="32" cf="f"/><c v="10,959"/><c v="2,346,222"/><c v="484.3" a="c"><l v="(475.1 - 493.7)"/><l v="4.7"/></c></r>
+<r><c l="2004"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,253"/><c v="1,290,121"/><c v="541.3" a="c"><l v="(528.8 - 554.0)"/><l v="6.4"/></c></r>
+<r><c l="2004"/><c l="New Jersey" cd="34" cf="f"/><c v="48,505"/><c v="8,634,561"/><c v="530.0" a="c"><l v="(525.3 - 534.7)"/><l v="2.4"/></c></r>
+<r><c l="2004"/><c l="New Mexico" cd="35" cf="f"/><c v="8,466"/><c v="1,903,808"/><c v="442.3" a="c"><l v="(432.9 - 451.9)"/><l v="4.8"/></c></r>
+<r><c l="2004"/><c l="New York" cd="36" cf="f"/><c v="104,018"/><c v="19,171,567"/><c v="515.1" a="c"><l v="(511.9 - 518.2)"/><l v="1.6"/></c></r>
+<r><c l="2004"/><c l="North Carolina" cd="37" cf="f"/><c v="42,642"/><c v="8,553,152"/><c v="490.8" a="c"><l v="(486.2 - 495.6)"/><l v="2.4"/></c></r>
+<r><c l="2004"/><c l="North Dakota" cd="38" cf="f"/><c v="3,418"/><c v="644,705"/><c v="475.9" a="c"><l v="(459.9 - 492.3)"/><l v="8.2"/></c></r>
+<r><c l="2004"/><c l="Ohio" cd="39" cf="f"/><c v="60,526"/><c v="11,452,251"/><c v="493.7" a="c"><l v="(489.7 - 497.6)"/><l v="2.0"/></c></r>
+<r><c l="2004"/><c l="Oklahoma" cd="40" cf="f"/><c v="18,286"/><c v="3,525,233"/><c v="491.8" a="c"><l v="(484.7 - 499.0)"/><l v="3.7"/></c></r>
+<r><c l="2004"/><c l="Oregon" cd="41" cf="f"/><c v="19,049"/><c v="3,569,463"/><c v="499.1" a="c"><l v="(492.0 - 506.3)"/><l v="3.6"/></c></r>
+<r><c l="2004"/><c l="Pennsylvania" cd="42" cf="f"/><c v="75,249"/><c v="12,410,722"/><c v="518.1" a="c"><l v="(514.4 - 521.9)"/><l v="1.9"/></c></r>
+<r><c l="2004"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,519"/><c v="1,074,579"/><c v="550.7" a="c"><l v="(537.3 - 564.4)"/><l v="6.9"/></c></r>
+<r><c l="2004"/><c l="South Carolina" cd="45" cf="f"/><c v="21,652"/><c v="4,210,921"/><c v="496.2" a="c"><l v="(489.5 - 502.9)"/><l v="3.4"/></c></r>
+<r><c l="2004"/><c l="South Dakota" cd="46" cf="f"/><c v="4,096"/><c v="770,396"/><c v="485.4" a="c"><l v="(470.6 - 500.7)"/><l v="7.6"/></c></r>
+<r><c l="2004"/><c l="Tennessee" cd="47" cf="f"/><c v="28,290"/><c v="5,910,809"/><c v="459.1" a="c"><l v="(453.8 - 464.6)"/><l v="2.7"/></c></r>
+<r><c l="2004"/><c l="Texas" cd="48" cf="f"/><c v="92,928"/><c v="22,394,023"/><c v="479.6" a="c"><l v="(476.5 - 482.7)"/><l v="1.6"/></c></r>
+<r><c l="2004"/><c l="Utah" cd="49" cf="f"/><c v="7,982"/><c v="2,401,580"/><c v="438.1" a="c"><l v="(428.4 - 447.9)"/><l v="5.0"/></c></r>
+<r><c l="2004"/><c l="Vermont" cd="50" cf="f"/><c v="3,493"/><c v="619,920"/><c v="514.4" a="c"><l v="(497.4 - 532.0)"/><l v="8.8"/></c></r>
+<r><c l="2004"/><c l="Virginia" cd="51" cf="f"/><c v="34,668"/><c v="7,475,575"/><c v="471.0" a="c"><l v="(466.0 - 476.0)"/><l v="2.6"/></c></r>
+<r><c l="2004"/><c l="Washington" cd="53" cf="f"/><c v="31,770"/><c v="6,178,645"/><c v="522.6" a="c"><l v="(516.8 - 528.5)"/><l v="3.0"/></c></r>
+<r><c l="2004"/><c l="West Virginia" cd="54" cf="f"/><c v="11,006"/><c v="1,816,438"/><c v="504.1" a="c"><l v="(494.6 - 513.7)"/><l v="4.8"/></c></r>
+<r><c l="2004"/><c l="Wisconsin" cd="55" cf="f"/><c v="28,816"/><c v="5,514,026"/><c v="496.1" a="c"><l v="(490.3 - 501.8)"/><l v="2.9"/></c></r>
+<r><c l="2004"/><c l="Wyoming" cd="56" cf="f"/><c v="2,430"/><c v="509,106"/><c v="463.7" a="c"><l v="(445.2 - 482.7)"/><l v="9.5"/></c></r>
+<r><c l="2004"/><c c="1"/><c dt="1,468,419"/><c dt="292,805,298"/><c dt="492.5" a="c"><l v="(491.7 - 493.3)"/><l v="0.4"/></c></r>
+<r><c l="2005"/><c l="Alabama" cd="01" cf="f"/><c v="23,293"/><c v="4,565,917"/><c v="474.3" a="c"><l v="(468.2 - 480.4)"/><l v="3.1"/></c></r>
+<r><c l="2005"/><c l="Alaska" cd="02" cf="f"/><c v="2,458"/><c v="666,946"/><c v="494.9" a="c"><l v="(473.7 - 516.7)"/><l v="10.9"/></c></r>
+<r><c l="2005"/><c l="Arizona" cd="04" cf="f"/><c v="25,262"/><c v="5,839,077"/><c v="419.4" a="c"><l v="(414.2 - 424.6)"/><l v="2.7"/></c></r>
+<r><c l="2005"/><c l="Arkansas" cd="05" cf="f"/><c v="14,532"/><c v="2,781,097"/><c v="476.0" a="c"><l v="(468.2 - 483.8)"/><l v="4.0"/></c></r>
+<r><c l="2005"/><c l="California" cd="06" cf="f"/><c v="152,882"/><c v="35,827,943"/><c v="461.9" a="c"><l v="(459.6 - 464.2)"/><l v="1.2"/></c></r>
+<r><c l="2005"/><c l="Colorado" cd="08" cf="f"/><c v="19,533"/><c v="4,631,888"/><c v="461.6" a="c"><l v="(455.0 - 468.2)"/><l v="3.4"/></c></r>
+<r><c l="2005"/><c l="Connecticut" cd="09" cf="f"/><c v="20,628"/><c v="3,506,956"/><c v="532.1" a="c"><l v="(524.8 - 539.4)"/><l v="3.7"/></c></r>
+<r><c l="2005"/><c l="Delaware" cd="10" cf="f"/><c v="4,936"/><c v="845,150"/><c v="540.6" a="c"><l v="(525.5 - 556.0)"/><l v="7.7"/></c></r>
+<r><c l="2005"/><c l="District of Columbia" cd="11" cf="f"/><c v="2,857"/><c v="567,136"/><c v="503.4" a="c"><l v="(485.0 - 522.4)"/><l v="9.5"/></c></r>
+<r><c l="2005"/><c l="Florida" cd="12" cf="f"/><c v="107,130"/><c v="17,842,038"/><c v="485.6" a="c"><l v="(482.7 - 488.5)"/><l v="1.5"/></c></r>
+<r><c l="2005"/><c l="Georgia" cd="13" cf="f"/><c v="38,506"/><c v="8,925,922"/><c v="482.1" a="c"><l v="(477.2 - 487.0)"/><l v="2.5"/></c></r>
+<r><c l="2005"/><c l="Hawaii" cd="15" cf="f"/><c v="6,348"/><c v="1,292,729"/><c v="447.3" a="c"><l v="(436.3 - 458.5)"/><l v="5.7"/></c></r>
+<r><c l="2005"/><c l="Idaho" cd="16" cf="f"/><c v="6,717"/><c v="1,428,241"/><c v="488.3" a="c"><l v="(476.6 - 500.2)"/><l v="6.0"/></c></r>
+<r><c l="2005"/><c l="Illinois" cd="17" cf="f"/><c v="63,918"/><c v="12,609,903"/><c v="505.9" a="c"><l v="(501.9 - 509.8)"/><l v="2.0"/></c></r>
+<r><c l="2005"/><c l="Indiana" cd="18" cf="f"/><c v="31,442"/><c v="6,278,616"/><c v="489.3" a="c"><l v="(483.9 - 494.8)"/><l v="2.8"/></c></r>
+<r><c l="2005"/><c l="Iowa" cd="19" cf="f"/><c v="16,869"/><c v="2,964,454"/><c v="500.1" a="c"><l v="(492.5 - 507.8)"/><l v="3.9"/></c></r>
+<r><c l="2005"/><c l="Kansas" cd="20" cf="f"/><c v="14,129"/><c v="2,745,299"/><c v="492.9" a="c"><l v="(484.8 - 501.2)"/><l v="4.2"/></c></r>
+<r><c l="2005"/><c l="Kentucky" cd="21" cf="f"/><c v="23,254"/><c v="4,182,742"/><c v="528.8" a="c"><l v="(522.0 - 535.7)"/><l v="3.5"/></c></r>
+<r><c l="2005"/><c l="Louisiana" cd="22" cf="f"/><c v="21,561"/><c v="4,411,396"/><c v="491.9" a="c"><l v="(485.3 - 498.6)"/><l v="3.4"/></c></r>
+<r><c l="2005"/><c l="Maine" cd="23" cf="f"/><c v="8,593"/><c v="1,318,787"/><c v="552.4" a="c"><l v="(540.7 - 564.3)"/><l v="6.0"/></c></r>
+<r><c l="2005"/><c l="Maryland" cd="24" cf="f"/><c v="26,684"/><c v="5,592,379"/><c v="477.1" a="c"><l v="(471.4 - 482.9)"/><l v="2.9"/></c></r>
+<r><c l="2005"/><c l="Massachusetts" cd="25" cf="f"/><c v="37,606"/><c v="6,403,290"/><c v="541.1" a="c"><l v="(535.7 - 546.7)"/><l v="2.8"/></c></r>
+<r><c l="2005"/><c l="Michigan" cd="26" cf="f"/><c v="54,596"/><c v="10,051,137"/><c v="521.2" a="c"><l v="(516.8 - 525.6)"/><l v="2.2"/></c></r>
+<r><c l="2005"/><c l="Minnesota" cd="27" cf="f"/><c v="25,460"/><c v="5,119,598"/><c v="491.4" a="c"><l v="(485.4 - 497.6)"/><l v="3.1"/></c></r>
+<r><c l="2005"/><c l="Mississippi" cd="28" cf="f"/><c v="13,936"/><c v="2,876,229"/><c v="478.5" a="c"><l v="(470.5 - 486.6)"/><l v="4.1"/></c></r>
+<r><c l="2005"/><c l="Missouri" cd="29" cf="f"/><c v="31,349"/><c v="5,790,300"/><c v="502.5" a="c"><l v="(496.9 - 508.1)"/><l v="2.9"/></c></r>
+<r><c l="2005"/><c l="Montana" cd="30" cf="f"/><c v="5,370"/><c v="940,102"/><c v="505.6" a="c"><l v="(492.1 - 519.5)"/><l v="7.0"/></c></r>
+<r><c l="2005"/><c l="Nebraska" cd="31" cf="f"/><c v="9,276"/><c v="1,761,497"/><c v="498.2" a="c"><l v="(488.0 - 508.5)"/><l v="5.2"/></c></r>
+<r><c l="2005"/><c l="Nevada" cd="32" cf="f"/><c v="10,843"/><c v="2,432,143"/><c v="458.9" a="c"><l v="(450.2 - 467.8)"/><l v="4.5"/></c></r>
+<r><c l="2005"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,488"/><c v="1,298,492"/><c v="548.3" a="c"><l v="(535.8 - 560.9)"/><l v="6.4"/></c></r>
+<r><c l="2005"/><c l="New Jersey" cd="34" cf="f"/><c v="48,723"/><c v="8,651,974"/><c v="528.2" a="c"><l v="(523.5 - 533.0)"/><l v="2.4"/></c></r>
+<r><c l="2005"/><c l="New Mexico" cd="35" cf="f"/><c v="8,431"/><c v="1,932,274"/><c v="428.3" a="c"><l v="(419.1 - 437.6)"/><l v="4.7"/></c></r>
+<r><c l="2005"/><c l="New York" cd="36" cf="f"/><c v="105,623"/><c v="19,132,610"/><c v="519.0" a="c"><l v="(515.9 - 522.2)"/><l v="1.6"/></c></r>
+<r><c l="2005"/><c l="North Carolina" cd="37" cf="f"/><c v="44,948"/><c v="8,705,407"/><c v="503.0" a="c"><l v="(498.4 - 507.7)"/><l v="2.4"/></c></r>
+<r><c l="2005"/><c l="North Dakota" cd="38" cf="f"/><c v="3,546"/><c v="646,089"/><c v="489.9" a="c"><l v="(473.7 - 506.5)"/><l v="8.3"/></c></r>
+<r><c l="2005"/><c l="Ohio" cd="39" cf="f"/><c v="61,670"/><c v="11,463,320"/><c v="497.8" a="c"><l v="(493.9 - 501.8)"/><l v="2.0"/></c></r>
+<r><c l="2005"/><c l="Oklahoma" cd="40" cf="f"/><c v="18,325"/><c v="3,548,597"/><c v="486.9" a="c"><l v="(479.9 - 494.1)"/><l v="3.6"/></c></r>
+<r><c l="2005"/><c l="Oregon" cd="41" cf="f"/><c v="19,241"/><c v="3,613,202"/><c v="491.7" a="c"><l v="(484.7 - 498.8)"/><l v="3.6"/></c></r>
+<r><c l="2005"/><c l="Pennsylvania" cd="42" cf="f"/><c v="76,001"/><c v="12,449,990"/><c v="519.4" a="c"><l v="(515.6 - 523.1)"/><l v="1.9"/></c></r>
+<r><c l="2005"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,224"/><c v="1,067,916"/><c v="527.6" a="c"><l v="(514.5 - 541.0)"/><l v="6.8"/></c></r>
+<r><c l="2005"/><c l="South Carolina" cd="45" cf="f"/><c v="22,517"/><c v="4,270,150"/><c v="503.1" a="c"><l v="(496.5 - 509.8)"/><l v="3.4"/></c></r>
+<r><c l="2005"/><c l="South Dakota" cd="46" cf="f"/><c v="4,008"/><c v="775,493"/><c v="470.3" a="c"><l v="(455.8 - 485.3)"/><l v="7.5"/></c></r>
+<r><c l="2005"/><c l="Tennessee" cd="47" cf="f"/><c v="30,927"/><c v="5,991,057"/><c v="490.2" a="c"><l v="(484.8 - 495.8)"/><l v="2.8"/></c></r>
+<r><c l="2005"/><c l="Texas" cd="48" cf="f"/><c v="94,714"/><c v="22,773,020"/><c v="475.5" a="c"><l v="(472.4 - 478.5)"/><l v="1.6"/></c></r>
+<r><c l="2005"/><c l="Utah" cd="49" cf="f"/><c v="8,124"/><c v="2,457,719"/><c v="430.1" a="c"><l v="(420.7 - 439.7)"/><l v="4.8"/></c></r>
+<r><c l="2005"/><c l="Vermont" cd="50" cf="f"/><c v="3,572"/><c v="621,215"/><c v="517.2" a="c"><l v="(500.2 - 534.7)"/><l v="8.7"/></c></r>
+<r><c l="2005"/><c l="Virginia" cd="51" cf="f"/><c v="35,775"/><c v="7,577,105"/><c v="474.1" a="c"><l v="(469.2 - 479.1)"/><l v="2.5"/></c></r>
+<r><c l="2005"/><c l="Washington" cd="53" cf="f"/><c v="32,469"/><c v="6,257,305"/><c v="520.8" a="c"><l v="(515.1 - 526.5)"/><l v="2.9"/></c></r>
+<r><c l="2005"/><c l="West Virginia" cd="54" cf="f"/><c v="11,314"/><c v="1,820,492"/><c v="512.3" a="c"><l v="(502.9 - 522.0)"/><l v="4.9"/></c></r>
+<r><c l="2005"/><c l="Wisconsin" cd="55" cf="f"/><c v="28,636"/><c v="5,546,166"/><c v="485.4" a="c"><l v="(479.8 - 491.1)"/><l v="2.9"/></c></r>
+<r><c l="2005"/><c l="Wyoming" cd="56" cf="f"/><c v="2,347"/><c v="514,157"/><c v="437.1" a="c"><l v="(419.4 - 455.4)"/><l v="9.1"/></c></r>
+<r><c l="2005"/><c c="1"/><c dt="1,494,591"/><c dt="295,312,662"/><c dt="492.4" a="c"><l v="(491.6 - 493.2)"/><l v="0.4"/></c></r>
+<r><c l="2006"/><c l="Alabama" cd="01" cf="f"/><c v="24,030"/><c v="4,628,981"/><c v="478.0" a="c"><l v="(472.0 - 484.2)"/><l v="3.1"/></c></r>
+<r><c l="2006"/><c l="Alaska" cd="02" cf="f"/><c v="2,588"/><c v="675,302"/><c v="500.5" a="c"><l v="(479.6 - 522.1)"/><l v="10.8"/></c></r>
+<r><c l="2006"/><c l="Arizona" cd="04" cf="f"/><c v="26,329"/><c v="6,029,141"/><c v="421.9" a="c"><l v="(416.8 - 427.1)"/><l v="2.6"/></c></r>
+<r><c l="2006"/><c l="Arkansas" cd="05" cf="f"/><c v="14,776"/><c v="2,821,761"/><c v="473.0" a="c"><l v="(465.4 - 480.8)"/><l v="3.9"/></c></r>
+<r><c l="2006"/><c l="California" cd="06" cf="f"/><c v="154,422"/><c v="36,021,202"/><c v="459.8" a="c"><l v="(457.5 - 462.1)"/><l v="1.2"/></c></r>
+<r><c l="2006"/><c l="Colorado" cd="08" cf="f"/><c v="19,923"/><c v="4,720,423"/><c v="453.7" a="c"><l v="(447.3 - 460.1)"/><l v="3.3"/></c></r>
+<r><c l="2006"/><c l="Connecticut" cd="09" cf="f"/><c v="21,380"/><c v="3,517,460"/><c v="545.9" a="c"><l v="(538.5 - 553.3)"/><l v="3.8"/></c></r>
+<r><c l="2006"/><c l="Delaware" cd="10" cf="f"/><c v="5,170"/><c v="859,268"/><c v="548.9" a="c"><l v="(534.0 - 564.2)"/><l v="7.7"/></c></r>
+<r><c l="2006"/><c l="District of Columbia" cd="11" cf="f"/><c v="2,839"/><c v="570,681"/><c v="504.2" a="c"><l v="(485.6 - 523.3)"/><l v="9.6"/></c></r>
+<r><c l="2006"/><c l="Florida" cd="12" cf="f"/><c v="107,937"/><c v="18,166,990"/><c v="481.1" a="c"><l v="(478.2 - 484.0)"/><l v="1.5"/></c></r>
+<r><c l="2006"/><c l="Georgia" cd="13" cf="f"/><c v="40,399"/><c v="9,155,813"/><c v="486.9" a="c"><l v="(482.1 - 491.8)"/><l v="2.5"/></c></r>
+<r><c l="2006"/><c l="Hawaii" cd="15" cf="f"/><c v="6,404"/><c v="1,309,731"/><c v="442.1" a="c"><l v="(431.3 - 453.2)"/><l v="5.6"/></c></r>
+<r><c l="2006"/><c l="Idaho" cd="16" cf="f"/><c v="6,931"/><c v="1,468,669"/><c v="484.5" a="c"><l v="(473.0 - 496.1)"/><l v="5.9"/></c></r>
+<r><c l="2006"/><c l="Illinois" cd="17" cf="f"/><c v="65,822"/><c v="12,643,955"/><c v="515.9" a="c"><l v="(511.9 - 519.8)"/><l v="2.0"/></c></r>
+<r><c l="2006"/><c l="Indiana" cd="18" cf="f"/><c v="32,614"/><c v="6,332,669"/><c v="499.1" a="c"><l v="(493.7 - 504.6)"/><l v="2.8"/></c></r>
+<r><c l="2006"/><c l="Iowa" cd="19" cf="f"/><c v="17,192"/><c v="2,982,644"/><c v="504.1" a="c"><l v="(496.5 - 511.7)"/><l v="3.9"/></c></r>
+<r><c l="2006"/><c l="Kansas" cd="20" cf="f"/><c v="14,371"/><c v="2,762,931"/><c v="494.6" a="c"><l v="(486.5 - 502.8)"/><l v="4.2"/></c></r>
+<r><c l="2006"/><c l="Kentucky" cd="21" cf="f"/><c v="24,489"/><c v="4,219,239"/><c v="545.3" a="c"><l v="(538.4 - 552.2)"/><l v="3.5"/></c></r>
+<r><c l="2006"/><c l="Louisiana" cd="22" cf="f"/><c v="22,117"/><c v="4,302,665"/><c v="505.8" a="c"><l v="(499.1 - 512.6)"/><l v="3.4"/></c></r>
+<r><c l="2006"/><c l="Maine" cd="23" cf="f"/><c v="8,944"/><c v="1,323,619"/><c v="564.6" a="c"><l v="(552.9 - 576.6)"/><l v="6.0"/></c></r>
+<r><c l="2006"/><c l="Maryland" cd="24" cf="f"/><c v="26,848"/><c v="5,627,367"/><c v="472.5" a="c"><l v="(466.8 - 478.2)"/><l v="2.9"/></c></r>
+<r><c l="2006"/><c l="Massachusetts" cd="25" cf="f"/><c v="38,786"/><c v="6,410,084"/><c v="553.6" a="c"><l v="(548.1 - 559.2)"/><l v="2.8"/></c></r>
+<r><c l="2006"/><c l="Michigan" cd="26" cf="f"/><c v="55,429"/><c v="10,036,081"/><c v="522.1" a="c"><l v="(517.7 - 526.5)"/><l v="2.2"/></c></r>
+<r><c l="2006"/><c l="Minnesota" cd="27" cf="f"/><c v="26,288"/><c v="5,163,555"/><c v="497.8" a="c"><l v="(491.8 - 504.0)"/><l v="3.1"/></c></r>
+<r><c l="2006"/><c l="Mississippi" cd="28" cf="f"/><c v="14,483"/><c v="2,904,978"/><c v="487.6" a="c"><l v="(479.7 - 495.7)"/><l v="4.1"/></c></r>
+<r><c l="2006"/><c l="Missouri" cd="29" cf="f"/><c v="31,615"/><c v="5,842,704"/><c v="498.0" a="c"><l v="(492.5 - 503.6)"/><l v="2.8"/></c></r>
+<r><c l="2006"/><c l="Montana" cd="30" cf="f"/><c v="5,314"/><c v="952,692"/><c v="489.3" a="c"><l v="(476.0 - 502.8)"/><l v="6.8"/></c></r>
+<r><c l="2006"/><c l="Nebraska" cd="31" cf="f"/><c v="9,387"/><c v="1,772,693"/><c v="497.3" a="c"><l v="(487.2 - 507.5)"/><l v="5.2"/></c></r>
+<r><c l="2006"/><c l="Nevada" cd="32" cf="f"/><c v="11,526"/><c v="2,522,658"/><c v="474.3" a="c"><l v="(465.5 - 483.2)"/><l v="4.5"/></c></r>
+<r><c l="2006"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,585"/><c v="1,308,389"/><c v="539.7" a="c"><l v="(527.5 - 552.2)"/><l v="6.3"/></c></r>
+<r><c l="2006"/><c l="New Jersey" cd="34" cf="f"/><c v="50,493"/><c v="8,661,679"/><c v="542.2" a="c"><l v="(537.4 - 546.9)"/><l v="2.4"/></c></r>
+<r><c l="2006"/><c l="New Mexico" cd="35" cf="f"/><c v="8,646"/><c v="1,962,137"/><c v="424.1" a="c"><l v="(415.1 - 433.2)"/><l v="4.6"/></c></r>
+<r><c l="2006"/><c l="New York" cd="36" cf="f"/><c v="108,817"/><c v="19,104,631"/><c v="531.5" a="c"><l v="(528.3 - 534.7)"/><l v="1.6"/></c></r>
+<r><c l="2006"/><c l="North Carolina" cd="37" cf="f"/><c v="46,309"/><c v="8,917,270"/><c v="500.5" a="c"><l v="(496.0 - 505.2)"/><l v="2.3"/></c></r>
+<r><c l="2006"/><c l="North Dakota" cd="38" cf="f"/><c v="3,553"/><c v="649,422"/><c v="483.5" a="c"><l v="(467.5 - 499.9)"/><l v="8.2"/></c></r>
+<r><c l="2006"/><c l="Ohio" cd="39" cf="f"/><c v="62,341"/><c v="11,481,213"/><c v="496.9" a="c"><l v="(493.0 - 500.8)"/><l v="2.0"/></c></r>
+<r><c l="2006"/><c l="Oklahoma" cd="40" cf="f"/><c v="19,433"/><c v="3,594,090"/><c v="507.0" a="c"><l v="(499.9 - 514.3)"/><l v="3.7"/></c></r>
+<r><c l="2006"/><c l="Oregon" cd="41" cf="f"/><c v="19,790"/><c v="3,670,883"/><c v="491.8" a="c"><l v="(484.9 - 498.7)"/><l v="3.5"/></c></r>
+<r><c l="2006"/><c l="Pennsylvania" cd="42" cf="f"/><c v="78,089"/><c v="12,510,809"/><c v="528.0" a="c"><l v="(524.3 - 531.7)"/><l v="1.9"/></c></r>
+<r><c l="2006"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,502"/><c v="1,063,096"/><c v="546.3" a="c"><l v="(532.9 - 559.9)"/><l v="6.9"/></c></r>
+<r><c l="2006"/><c l="South Carolina" cd="45" cf="f"/><c v="23,127"/><c v="4,357,847"/><c v="497.8" a="c"><l v="(491.3 - 504.3)"/><l v="3.3"/></c></r>
+<r><c l="2006"/><c l="South Dakota" cd="46" cf="f"/><c v="3,930"/><c v="783,033"/><c v="452.0" a="c"><l v="(437.8 - 466.5)"/><l v="7.3"/></c></r>
+<r><c l="2006"/><c l="Tennessee" cd="47" cf="f"/><c v="31,811"/><c v="6,088,766"/><c v="491.1" a="c"><l v="(485.7 - 496.6)"/><l v="2.8"/></c></r>
+<r><c l="2006"/><c l="Texas" cd="48" cf="f"/><c v="96,567"/><c v="23,359,580"/><c v="467.9" a="c"><l v="(464.9 - 470.9)"/><l v="1.5"/></c></r>
+<r><c l="2006"/><c l="Utah" cd="49" cf="f"/><c v="8,528"/><c v="2,525,507"/><c v="434.4" a="c"><l v="(425.1 - 443.9)"/><l v="4.8"/></c></r>
+<r><c l="2006"/><c l="Vermont" cd="50" cf="f"/><c v="3,863"/><c v="622,892"/><c v="548.5" a="c"><l v="(531.1 - 566.3)"/><l v="8.9"/></c></r>
+<r><c l="2006"/><c l="Virginia" cd="51" cf="f"/><c v="36,550"/><c v="7,673,725"/><c v="473.9" a="c"><l v="(469.0 - 478.9)"/><l v="2.5"/></c></r>
+<r><c l="2006"/><c l="Washington" cd="53" cf="f"/><c v="32,921"/><c v="6,370,753"/><c v="512.9" a="c"><l v="(507.3 - 518.5)"/><l v="2.9"/></c></r>
+<r><c l="2006"/><c l="West Virginia" cd="54" cf="f"/><c v="11,458"/><c v="1,827,912"/><c v="512.4" a="c"><l v="(503.0 - 522.0)"/><l v="4.8"/></c></r>
+<r><c l="2006"/><c l="Wisconsin" cd="55" cf="f"/><c v="29,478"/><c v="5,577,655"/><c v="492.3" a="c"><l v="(486.6 - 498.0)"/><l v="2.9"/></c></r>
+<r><c l="2006"/><c l="Wyoming" cd="56" cf="f"/><c v="2,542"/><c v="522,667"/><c v="466.0" a="c"><l v="(447.8 - 484.7)"/><l v="9.4"/></c></r>
+<r><c l="2006"/><c c="1"/><c dt="1,530,686"/><c dt="298,379,912"/><c dt="494.9" a="c"><l v="(494.1 - 495.7)"/><l v="0.4"/></c></r>
+<r><c l="2007"/><c l="Alabama" cd="01" cf="f"/><c v="24,994"/><c v="4,672,840"/><c v="488.5" a="c"><l v="(482.4 - 494.6)"/><l v="3.1"/></c></r>
+<r><c l="2007"/><c l="Alaska" cd="02" cf="f"/><c v="2,637"/><c v="680,300"/><c v="492.3" a="c"><l v="(471.9 - 513.3)"/><l v="10.5"/></c></r>
+<r><c l="2007"/><c l="Arizona" cd="04" cf="f"/><c v="27,709"/><c v="6,167,681"/><c v="429.9" a="c"><l v="(424.8 - 435.0)"/><l v="2.6"/></c></r>
+<r><c l="2007"/><c l="Arkansas" cd="05" cf="f"/><c v="15,269"/><c v="2,848,650"/><c v="480.9" a="c"><l v="(473.2 - 488.6)"/><l v="3.9"/></c></r>
+<r><c l="2007"/><c l="California" cd="06" cf="f"/><c v="160,964"/><c v="36,250,311"/><c v="469.2" a="c"><l v="(466.9 - 471.6)"/><l v="1.2"/></c></r>
+<r><c l="2007"/><c l="Colorado" cd="08" cf="f"/><c v="21,432"/><c v="4,803,868"/><c v="472.1" a="c"><l v="(465.7 - 478.6)"/><l v="3.3"/></c></r>
+<r><c l="2007"/><c l="Connecticut" cd="09" cf="f"/><c v="21,440"/><c v="3,527,270"/><c v="539.9" a="c"><l v="(532.6 - 547.2)"/><l v="3.7"/></c></r>
+<r><c l="2007"/><c l="Delaware" cd="10" cf="f"/><c v="5,220"/><c v="871,749"/><c v="537.6" a="c"><l v="(523.0 - 552.6)"/><l v="7.5"/></c></r>
+<r><c l="2007"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,057"/><c v="574,404"/><c v="539.1" a="c"><l v="(519.9 - 558.8)"/><l v="9.9"/></c></r>
+<r><c l="2007"/><c l="Florida" cd="12" cf="f"/><c v="110,220"/><c v="18,367,842"/><c v="482.3" a="c"><l v="(479.5 - 485.2)"/><l v="1.5"/></c></r>
+<r><c l="2007"/><c l="Georgia" cd="13" cf="f"/><c v="43,396"/><c v="9,349,988"/><c v="505.4" a="c"><l v="(500.5 - 510.2)"/><l v="2.5"/></c></r>
+<r><c l="2007"/><c l="Hawaii" cd="15" cf="f"/><c v="6,687"/><c v="1,315,675"/><c v="453.4" a="c"><l v="(442.5 - 464.6)"/><l v="5.6"/></c></r>
+<r><c l="2007"/><c l="Idaho" cd="16" cf="f"/><c v="7,329"/><c v="1,505,105"/><c v="494.8" a="c"><l v="(483.4 - 506.4)"/><l v="5.8"/></c></r>
+<r><c l="2007"/><c l="Illinois" cd="17" cf="f"/><c v="67,179"/><c v="12,695,866"/><c v="518.5" a="c"><l v="(514.6 - 522.5)"/><l v="2.0"/></c></r>
+<r><c l="2007"/><c l="Indiana" cd="18" cf="f"/><c v="32,821"/><c v="6,379,599"/><c v="493.2" a="c"><l v="(487.9 - 498.6)"/><l v="2.7"/></c></r>
+<r><c l="2007"/><c l="Iowa" cd="19" cf="f"/><c v="17,313"/><c v="2,999,212"/><c v="501.5" a="c"><l v="(494.0 - 509.1)"/><l v="3.9"/></c></r>
+<r><c l="2007"/><c l="Kansas" cd="20" cf="f"/><c v="14,952"/><c v="2,783,785"/><c v="507.1" a="c"><l v="(498.9 - 515.4)"/><l v="4.2"/></c></r>
+<r><c l="2007"/><c l="Kentucky" cd="21" cf="f"/><c v="25,111"/><c v="4,256,672"/><c v="547.5" a="c"><l v="(540.7 - 554.4)"/><l v="3.5"/></c></r>
+<r><c l="2007"/><c l="Louisiana" cd="22" cf="f"/><c v="22,927"/><c v="4,375,581"/><c v="512.2" a="c"><l v="(505.5 - 518.9)"/><l v="3.4"/></c></r>
+<r><c l="2007"/><c l="Maine" cd="23" cf="f"/><c v="8,821"/><c v="1,327,040"/><c v="545.1" a="c"><l v="(533.7 - 556.8)"/><l v="5.9"/></c></r>
+<r><c l="2007"/><c l="Maryland" cd="24" cf="f"/><c v="28,811"/><c v="5,653,408"/><c v="497.1" a="c"><l v="(491.3 - 502.9)"/><l v="3.0"/></c></r>
+<r><c l="2007"/><c l="Massachusetts" cd="25" cf="f"/><c v="38,724"/><c v="6,431,559"/><c v="544.8" a="c"><l v="(539.3 - 550.3)"/><l v="2.8"/></c></r>
+<r><c l="2007"/><c l="Michigan" cd="26" cf="f"/><c v="57,693"/><c v="10,001,284"/><c v="534.1" a="c"><l v="(529.7 - 538.5)"/><l v="2.2"/></c></r>
+<r><c l="2007"/><c l="Minnesota" cd="27" cf="f"/><c v="27,753"/><c v="5,207,203"/><c v="513.8" a="c"><l v="(507.8 - 520.0)"/><l v="3.1"/></c></r>
+<r><c l="2007"/><c l="Mississippi" cd="28" cf="f"/><c v="15,329"/><c v="2,928,350"/><c v="505.7" a="c"><l v="(497.7 - 513.8)"/><l v="4.1"/></c></r>
+<r><c l="2007"/><c l="Missouri" cd="29" cf="f"/><c v="31,862"/><c v="5,887,612"/><c v="493.2" a="c"><l v="(487.7 - 498.7)"/><l v="2.8"/></c></r>
+<r><c l="2007"/><c l="Montana" cd="30" cf="f"/><c v="5,505"/><c v="964,706"/><c v="489.2" a="c"><l v="(476.1 - 502.5)"/><l v="6.7"/></c></r>
+<r><c l="2007"/><c l="Nebraska" cd="31" cf="f"/><c v="9,618"/><c v="1,783,440"/><c v="502.4" a="c"><l v="(492.3 - 512.6)"/><l v="5.2"/></c></r>
+<r><c l="2007"/><c l="Nevada" cd="32" cf="f"/><c v="11,003"/><c v="2,601,072"/><c v="433.4" a="c"><l v="(425.2 - 441.8)"/><l v="4.2"/></c></r>
+<r><c l="2007"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,724"/><c v="1,312,540"/><c v="536.1" a="c"><l v="(524.1 - 548.4)"/><l v="6.2"/></c></r>
+<r><c l="2007"/><c l="New Jersey" cd="34" cf="f"/><c v="51,068"/><c v="8,677,885"/><c v="541.2" a="c"><l v="(536.5 - 545.9)"/><l v="2.4"/></c></r>
+<r><c l="2007"/><c l="New Mexico" cd="35" cf="f"/><c v="8,942"/><c v="1,990,070"/><c v="426.7" a="c"><l v="(417.8 - 435.8)"/><l v="4.6"/></c></r>
+<r><c l="2007"/><c l="New York" cd="36" cf="f"/><c v="110,906"/><c v="19,132,335"/><c v="534.9" a="c"><l v="(531.8 - 538.1)"/><l v="1.6"/></c></r>
+<r><c l="2007"/><c l="North Carolina" cd="37" cf="f"/><c v="48,182"/><c v="9,118,037"/><c v="503.6" a="c"><l v="(499.1 - 508.2)"/><l v="2.3"/></c></r>
+<r><c l="2007"/><c l="North Dakota" cd="38" cf="f"/><c v="3,618"/><c v="652,822"/><c v="489.0" a="c"><l v="(473.0 - 505.5)"/><l v="8.2"/></c></r>
+<r><c l="2007"/><c l="Ohio" cd="39" cf="f"/><c v="63,114"/><c v="11,500,468"/><c v="495.2" a="c"><l v="(491.4 - 499.2)"/><l v="2.0"/></c></r>
+<r><c l="2007"/><c l="Oklahoma" cd="40" cf="f"/><c v="20,230"/><c v="3,634,349"/><c v="518.4" a="c"><l v="(511.2 - 525.6)"/><l v="3.7"/></c></r>
+<r><c l="2007"/><c l="Oregon" cd="41" cf="f"/><c v="20,047"/><c v="3,722,417"/><c v="486.8" a="c"><l v="(480.0 - 493.7)"/><l v="3.5"/></c></r>
+<r><c l="2007"/><c l="Pennsylvania" cd="42" cf="f"/><c v="79,440"/><c v="12,563,937"/><c v="530.7" a="c"><l v="(527.0 - 534.4)"/><l v="1.9"/></c></r>
+<r><c l="2007"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,564"/><c v="1,057,315"/><c v="549.8" a="c"><l v="(536.4 - 563.5)"/><l v="6.9"/></c></r>
+<r><c l="2007"/><c l="South Carolina" cd="45" cf="f"/><c v="24,116"/><c v="4,444,110"/><c v="501.5" a="c"><l v="(495.1 - 508.0)"/><l v="3.3"/></c></r>
+<r><c l="2007"/><c l="South Dakota" cd="46" cf="f"/><c v="4,179"/><c v="791,623"/><c v="472.5" a="c"><l v="(458.1 - 487.2)"/><l v="7.4"/></c></r>
+<r><c l="2007"/><c l="Tennessee" cd="47" cf="f"/><c v="32,952"/><c v="6,175,727"/><c v="496.0" a="c"><l v="(490.6 - 501.4)"/><l v="2.8"/></c></r>
+<r><c l="2007"/><c l="Texas" cd="48" cf="f"/><c v="101,168"/><c v="23,831,983"/><c v="475.3" a="c"><l v="(472.4 - 478.3)"/><l v="1.5"/></c></r>
+<r><c l="2007"/><c l="Utah" cd="49" cf="f"/><c v="8,745"/><c v="2,597,746"/><c v="430.2" a="c"><l v="(421.1 - 439.4)"/><l v="4.7"/></c></r>
+<r><c l="2007"/><c l="Vermont" cd="50" cf="f"/><c v="3,770"/><c v="623,481"/><c v="523.7" a="c"><l v="(506.8 - 541.0)"/><l v="8.7"/></c></r>
+<r><c l="2007"/><c l="Virginia" cd="51" cf="f"/><c v="38,565"/><c v="7,751,000"/><c v="487.4" a="c"><l v="(482.5 - 492.3)"/><l v="2.5"/></c></r>
+<r><c l="2007"/><c l="Washington" cd="53" cf="f"/><c v="32,443"/><c v="6,461,587"/><c v="491.6" a="c"><l v="(486.2 - 497.1)"/><l v="2.8"/></c></r>
+<r><c l="2007"/><c l="West Virginia" cd="54" cf="f"/><c v="11,744"/><c v="1,834,052"/><c v="516.8" a="c"><l v="(507.3 - 526.3)"/><l v="4.8"/></c></r>
+<r><c l="2007"/><c l="Wisconsin" cd="55" cf="f"/><c v="30,324"/><c v="5,610,775"/><c v="497.2" a="c"><l v="(491.5 - 502.8)"/><l v="2.9"/></c></r>
+<r><c l="2007"/><c l="Wyoming" cd="56" cf="f"/><c v="2,513"/><c v="534,876"/><c v="445.8" a="c"><l v="(428.2 - 463.9)"/><l v="9.0"/></c></r>
+<r><c l="2007"/><c c="1"/><c dt="1,576,130"/><c dt="301,231,207"/><c dt="499.0" a="c"><l v="(498.2 - 499.8)"/><l v="0.4"/></c></r>
+<r><c l="2008"/><c l="Alabama" cd="01" cf="f"/><c v="25,972"/><c v="4,718,206"/><c v="497.4" a="c"><l v="(491.3 - 503.6)"/><l v="3.1"/></c></r>
+<r><c l="2008"/><c l="Alaska" cd="02" cf="f"/><c v="2,775"/><c v="687,455"/><c v="495.5" a="c"><l v="(475.5 - 516.1)"/><l v="10.3"/></c></r>
+<r><c l="2008"/><c l="Arizona" cd="04" cf="f"/><c v="27,498"/><c v="6,280,362"/><c v="416.6" a="c"><l v="(411.6 - 421.5)"/><l v="2.5"/></c></r>
+<r><c l="2008"/><c l="Arkansas" cd="05" cf="f"/><c v="15,168"/><c v="2,874,554"/><c v="467.9" a="c"><l v="(460.4 - 475.5)"/><l v="3.8"/></c></r>
+<r><c l="2008"/><c l="California" cd="06" cf="f"/><c v="163,431"/><c v="36,604,337"/><c v="464.9" a="c"><l v="(462.7 - 467.2)"/><l v="1.2"/></c></r>
+<r><c l="2008"/><c l="Colorado" cd="08" cf="f"/><c v="21,681"/><c v="4,889,730"/><c v="461.5" a="c"><l v="(455.2 - 467.8)"/><l v="3.2"/></c></r>
+<r><c l="2008"/><c l="Connecticut" cd="09" cf="f"/><c v="21,581"/><c v="3,545,579"/><c v="533.3" a="c"><l v="(526.1 - 540.5)"/><l v="3.7"/></c></r>
+<r><c l="2008"/><c l="Delaware" cd="10" cf="f"/><c v="5,348"/><c v="883,874"/><c v="537.2" a="c"><l v="(522.7 - 551.9)"/><l v="7.4"/></c></r>
+<r><c l="2008"/><c l="District of Columbia" cd="11" cf="f"/><c v="2,796"/><c v="580,236"/><c v="489.2" a="c"><l v="(471.0 - 508.0)"/><l v="9.4"/></c></r>
+<r><c l="2008"/><c l="Florida" cd="12" cf="f"/><c v="112,389"/><c v="18,527,305"/><c v="481.8" a="c"><l v="(478.9 - 484.7)"/><l v="1.5"/></c></r>
+<r><c l="2008"/><c l="Georgia" cd="13" cf="f"/><c v="44,334"/><c v="9,504,843"/><c v="499.9" a="c"><l v="(495.1 - 504.6)"/><l v="2.4"/></c></r>
+<r><c l="2008"/><c l="Hawaii" cd="15" cf="f"/><c v="6,937"/><c v="1,332,213"/><c v="458.5" a="c"><l v="(447.6 - 469.5)"/><l v="5.6"/></c></r>
+<r><c l="2008"/><c l="Idaho" cd="16" cf="f"/><c v="7,330"/><c v="1,534,320"/><c v="479.1" a="c"><l v="(468.0 - 490.3)"/><l v="5.7"/></c></r>
+<r><c l="2008"/><c l="Illinois" cd="17" cf="f"/><c v="68,434"/><c v="12,747,038"/><c v="519.5" a="c"><l v="(515.6 - 523.5)"/><l v="2.0"/></c></r>
+<r><c l="2008"/><c l="Indiana" cd="18" cf="f"/><c v="33,231"/><c v="6,424,806"/><c v="489.2" a="c"><l v="(483.9 - 494.5)"/><l v="2.7"/></c></r>
+<r><c l="2008"/><c l="Iowa" cd="19" cf="f"/><c v="17,455"/><c v="3,016,734"/><c v="500.2" a="c"><l v="(492.7 - 507.8)"/><l v="3.8"/></c></r>
+<r><c l="2008"/><c l="Kansas" cd="20" cf="f"/><c v="15,129"/><c v="2,808,076"/><c v="505.6" a="c"><l v="(497.5 - 513.8)"/><l v="4.2"/></c></r>
+<r><c l="2008"/><c l="Kentucky" cd="21" cf="f"/><c v="25,248"/><c v="4,289,878"/><c v="539.9" a="c"><l v="(533.2 - 546.7)"/><l v="3.4"/></c></r>
+<r><c l="2008"/><c l="Louisiana" cd="22" cf="f"/><c v="23,452"/><c v="4,435,586"/><c v="512.1" a="c"><l v="(505.5 - 518.8)"/><l v="3.4"/></c></r>
+<r><c l="2008"/><c l="Maine" cd="23" cf="f"/><c v="8,774"/><c v="1,330,509"/><c v="530.8" a="c"><l v="(519.6 - 542.2)"/><l v="5.8"/></c></r>
+<r><c l="2008"/><c l="Maryland" cd="24" cf="f"/><c v="29,701"/><c v="5,684,965"/><c v="502.6" a="c"><l v="(496.8 - 508.4)"/><l v="3.0"/></c></r>
+<r><c l="2008"/><c l="Massachusetts" cd="25" cf="f"/><c v="39,324"/><c v="6,468,967"/><c v="544.1" a="c"><l v="(538.6 - 549.5)"/><l v="2.8"/></c></r>
+<r><c l="2008"/><c l="Michigan" cd="26" cf="f"/><c v="55,437"/><c v="9,946,889"/><c v="506.6" a="c"><l v="(502.3 - 510.9)"/><l v="2.2"/></c></r>
+<r><c l="2008"/><c l="Minnesota" cd="27" cf="f"/><c v="27,915"/><c v="5,247,018"/><c v="505.0" a="c"><l v="(499.0 - 511.0)"/><l v="3.1"/></c></r>
+<r><c l="2008"/><c l="Mississippi" cd="28" cf="f"/><c v="15,601"/><c v="2,947,806"/><c v="506.9" a="c"><l v="(498.9 - 515.0)"/><l v="4.1"/></c></r>
+<r><c l="2008"/><c l="Missouri" cd="29" cf="f"/><c v="31,854"/><c v="5,923,916"/><c v="484.2" a="c"><l v="(478.8 - 489.6)"/><l v="2.7"/></c></r>
+<r><c l="2008"/><c l="Montana" cd="30" cf="f"/><c v="5,488"/><c v="976,415"/><c v="477.7" a="c"><l v="(464.9 - 490.7)"/><l v="6.6"/></c></r>
+<r><c l="2008"/><c l="Nebraska" cd="31" cf="f"/><c v="9,468"/><c v="1,796,378"/><c v="487.1" a="c"><l v="(477.2 - 497.1)"/><l v="5.1"/></c></r>
+<r><c l="2008"/><c l="Nevada" cd="32" cf="f"/><c v="12,219"/><c v="2,653,630"/><c v="467.4" a="c"><l v="(459.0 - 476.0)"/><l v="4.3"/></c></r>
+<r><c l="2008"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,988"/><c v="1,315,906"/><c v="542.0" a="c"><l v="(530.0 - 554.3)"/><l v="6.2"/></c></r>
+<r><c l="2008"/><c l="New Jersey" cd="34" cf="f"/><c v="51,036"/><c v="8,711,090"/><c v="532.9" a="c"><l v="(528.3 - 537.6)"/><l v="2.4"/></c></r>
+<r><c l="2008"/><c l="New Mexico" cd="35" cf="f"/><c v="9,114"/><c v="2,010,662"/><c v="424.4" a="c"><l v="(415.6 - 433.3)"/><l v="4.5"/></c></r>
+<r><c l="2008"/><c l="New York" cd="36" cf="f"/><c v="112,789"/><c v="19,212,436"/><c v="537.1" a="c"><l v="(533.9 - 540.2)"/><l v="1.6"/></c></r>
+<r><c l="2008"/><c l="North Carolina" cd="37" cf="f"/><c v="49,010"/><c v="9,309,449"/><c v="496.8" a="c"><l v="(492.4 - 501.3)"/><l v="2.3"/></c></r>
+<r><c l="2008"/><c l="North Dakota" cd="38" cf="f"/><c v="3,547"/><c v="657,569"/><c v="471.0" a="c"><l v="(455.4 - 487.1)"/><l v="8.0"/></c></r>
+<r><c l="2008"/><c l="Ohio" cd="39" cf="f"/><c v="64,430"/><c v="11,515,391"/><c v="498.1" a="c"><l v="(494.3 - 502.0)"/><l v="2.0"/></c></r>
+<r><c l="2008"/><c l="Oklahoma" cd="40" cf="f"/><c v="19,375"/><c v="3,668,976"/><c v="487.7" a="c"><l v="(480.8 - 494.7)"/><l v="3.5"/></c></r>
+<r><c l="2008"/><c l="Oregon" cd="41" cf="f"/><c v="21,099"/><c v="3,768,748"/><c v="499.5" a="c"><l v="(492.7 - 506.4)"/><l v="3.5"/></c></r>
+<r><c l="2008"/><c l="Pennsylvania" cd="42" cf="f"/><c v="79,563"/><c v="12,612,285"/><c v="525.7" a="c"><l v="(522.0 - 529.5)"/><l v="1.9"/></c></r>
+<r><c l="2008"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,463"/><c v="1,055,003"/><c v="535.6" a="c"><l v="(522.4 - 549.0)"/><l v="6.8"/></c></r>
+<r><c l="2008"/><c l="South Carolina" cd="45" cf="f"/><c v="23,999"/><c v="4,528,996"/><c v="483.3" a="c"><l v="(477.1 - 489.5)"/><l v="3.2"/></c></r>
+<r><c l="2008"/><c l="South Dakota" cd="46" cf="f"/><c v="4,138"/><c v="799,124"/><c v="460.7" a="c"><l v="(446.6 - 475.2)"/><l v="7.3"/></c></r>
+<r><c l="2008"/><c l="Tennessee" cd="47" cf="f"/><c v="33,822"/><c v="6,247,411"/><c v="496.4" a="c"><l v="(491.0 - 501.8)"/><l v="2.7"/></c></r>
+<r><c l="2008"/><c l="Texas" cd="48" cf="f"/><c v="102,164"/><c v="24,309,039"/><c v="465.6" a="c"><l v="(462.7 - 468.5)"/><l v="1.5"/></c></r>
+<r><c l="2008"/><c l="Utah" cd="49" cf="f"/><c v="9,125"/><c v="2,663,029"/><c v="434.0" a="c"><l v="(425.0 - 443.1)"/><l v="4.6"/></c></r>
+<r><c l="2008"/><c l="Vermont" cd="50" cf="f"/><c v="3,684"/><c v="624,151"/><c v="499.7" a="c"><l v="(483.4 - 516.5)"/><l v="8.4"/></c></r>
+<r><c l="2008"/><c l="Virginia" cd="51" cf="f"/><c v="38,645"/><c v="7,833,496"/><c v="477.9" a="c"><l v="(473.1 - 482.7)"/><l v="2.5"/></c></r>
+<r><c l="2008"/><c l="Washington" cd="53" cf="f"/><c v="34,483"/><c v="6,562,231"/><c v="509.3" a="c"><l v="(503.8 - 514.8)"/><l v="2.8"/></c></r>
+<r><c l="2008"/><c l="West Virginia" cd="54" cf="f"/><c v="11,514"/><c v="1,840,310"/><c v="501.2" a="c"><l v="(491.9 - 510.6)"/><l v="4.7"/></c></r>
+<r><c l="2008"/><c l="Wisconsin" cd="55" cf="f"/><c v="30,827"/><c v="5,640,996"/><c v="496.1" a="c"><l v="(490.5 - 501.8)"/><l v="2.9"/></c></r>
+<r><c l="2008"/><c l="Wyoming" cd="56" cf="f"/><c v="2,589"/><c v="546,043"/><c v="446.3" a="c"><l v="(428.9 - 464.2)"/><l v="8.9"/></c></r>
+<r><c l="2008"/><c c="1"/><c dt="1,595,374"/><c dt="304,093,966"/><c dt="494.6" a="c"><l v="(493.8 - 495.4)"/><l v="0.4"/></c></r>
+<r><c l="2009"/><c l="Alabama" cd="01" cf="f"/><c v="25,964"/><c v="4,757,938"/><c v="489.6" a="c"><l v="(483.6 - 495.6)"/><l v="3.1"/></c></r>
+<r><c l="2009"/><c l="Alaska" cd="02" cf="f"/><c v="2,763"/><c v="698,895"/><c v="477.1" a="c"><l v="(457.7 - 497.0)"/><l v="10.0"/></c></r>
+<r><c l="2009"/><c l="Arizona" cd="04" cf="f"/><c v="28,936"/><c v="6,343,154"/><c v="425.2" a="c"><l v="(420.2 - 430.1)"/><l v="2.5"/></c></r>
+<r><c l="2009"/><c l="Arkansas" cd="05" cf="f"/><c v="15,226"/><c v="2,896,843"/><c v="462.7" a="c"><l v="(455.3 - 470.2)"/><l v="3.8"/></c></r>
+<r><c l="2009"/><c l="California" cd="06" cf="f"/><c v="165,389"/><c v="36,961,229"/><c v="459.3" a="c"><l v="(457.1 - 461.6)"/><l v="1.1"/></c></r>
+<r><c l="2009"/><c l="Colorado" cd="08" cf="f"/><c v="22,367"/><c v="4,972,195"/><c v="459.6" a="c"><l v="(453.5 - 465.8)"/><l v="3.1"/></c></r>
+<r><c l="2009"/><c l="Connecticut" cd="09" cf="f"/><c v="21,966"/><c v="3,561,807"/><c v="535.8" a="c"><l v="(528.6 - 543.1)"/><l v="3.7"/></c></r>
+<r><c l="2009"/><c l="Delaware" cd="10" cf="f"/><c v="5,424"/><c v="891,730"/><c v="531.1" a="c"><l v="(516.9 - 545.6)"/><l v="7.3"/></c></r>
+<r><c l="2009"/><c l="District of Columbia" cd="11" cf="f"/><c v="2,896"/><c v="592,228"/><c v="497.3" a="c"><l v="(479.1 - 516.1)"/><l v="9.4"/></c></r>
+<r><c l="2009"/><c l="Florida" cd="12" cf="f"/><c v="111,709"/><c v="18,652,644"/><c v="470.2" a="c"><l v="(467.4 - 473.0)"/><l v="1.4"/></c></r>
+<r><c l="2009"/><c l="Georgia" cd="13" cf="f"/><c v="45,037"/><c v="9,620,846"/><c v="494.2" a="c"><l v="(489.5 - 498.9)"/><l v="2.4"/></c></r>
+<r><c l="2009"/><c l="Hawaii" cd="15" cf="f"/><c v="7,048"/><c v="1,346,717"/><c v="456.6" a="c"><l v="(445.8 - 467.5)"/><l v="5.5"/></c></r>
+<r><c l="2009"/><c l="Idaho" cd="16" cf="f"/><c v="7,524"/><c v="1,554,439"/><c v="477.2" a="c"><l v="(466.3 - 488.2)"/><l v="5.6"/></c></r>
+<r><c l="2009"/><c l="Illinois" cd="17" cf="f"/><c v="68,843"/><c v="12,796,778"/><c v="514.8" a="c"><l v="(510.9 - 518.7)"/><l v="2.0"/></c></r>
+<r><c l="2009"/><c l="Indiana" cd="18" cf="f"/><c v="33,095"/><c v="6,459,325"/><c v="479.3" a="c"><l v="(474.1 - 484.5)"/><l v="2.7"/></c></r>
+<r><c l="2009"/><c l="Iowa" cd="19" cf="f"/><c v="18,045"/><c v="3,032,870"/><c v="510.3" a="c"><l v="(502.8 - 518.0)"/><l v="3.9"/></c></r>
+<r><c l="2009"/><c l="Kansas" cd="20" cf="f"/><c v="14,949"/><c v="2,832,704"/><c v="490.7" a="c"><l v="(482.7 - 498.7)"/><l v="4.1"/></c></r>
+<r><c l="2009"/><c l="Kentucky" cd="21" cf="f"/><c v="25,429"/><c v="4,317,074"/><c v="533.8" a="c"><l v="(527.2 - 540.5)"/><l v="3.4"/></c></r>
+<r><c l="2009"/><c l="Louisiana" cd="22" cf="f"/><c v="24,143"/><c v="4,491,648"/><c v="514.2" a="c"><l v="(507.6 - 520.8)"/><l v="3.4"/></c></r>
+<r><c l="2009"/><c l="Maine" cd="23" cf="f"/><c v="8,641"/><c v="1,329,590"/><c v="516.6" a="c"><l v="(505.6 - 527.9)"/><l v="5.7"/></c></r>
+<r><c l="2009"/><c l="Maryland" cd="24" cf="f"/><c v="29,263"/><c v="5,730,388"/><c v="481.5" a="c"><l v="(475.9 - 487.1)"/><l v="2.9"/></c></r>
+<r><c l="2009"/><c l="Massachusetts" cd="25" cf="f"/><c v="39,177"/><c v="6,517,613"/><c v="532.9" a="c"><l v="(527.5 - 538.2)"/><l v="2.7"/></c></r>
+<r><c l="2009"/><c l="Michigan" cd="26" cf="f"/><c v="55,836"/><c v="9,901,591"/><c v="502.2" a="c"><l v="(497.9 - 506.4)"/><l v="2.2"/></c></r>
+<r><c l="2009"/><c l="Minnesota" cd="27" cf="f"/><c v="27,807"/><c v="5,281,203"/><c v="492.8" a="c"><l v="(486.9 - 498.7)"/><l v="3.0"/></c></r>
+<r><c l="2009"/><c l="Mississippi" cd="28" cf="f"/><c v="15,325"/><c v="2,958,774"/><c v="491.6" a="c"><l v="(483.8 - 499.5)"/><l v="4.0"/></c></r>
+<r><c l="2009"/><c l="Missouri" cd="29" cf="f"/><c v="32,650"/><c v="5,961,088"/><c v="487.5" a="c"><l v="(482.1 - 492.8)"/><l v="2.7"/></c></r>
+<r><c l="2009"/><c l="Montana" cd="30" cf="f"/><c v="5,759"/><c v="983,982"/><c v="489.1" a="c"><l v="(476.3 - 502.2)"/><l v="6.6"/></c></r>
+<r><c l="2009"/><c l="Nebraska" cd="31" cf="f"/><c v="9,130"/><c v="1,812,683"/><c v="463.6" a="c"><l v="(454.1 - 473.4)"/><l v="4.9"/></c></r>
+<r><c l="2009"/><c l="Nevada" cd="32" cf="f"/><c v="12,572"/><c v="2,684,665"/><c v="467.2" a="c"><l v="(458.9 - 475.6)"/><l v="4.3"/></c></r>
+<r><c l="2009"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,857"/><c v="1,316,102"/><c v="521.7" a="c"><l v="(509.9 - 533.6)"/><l v="6.0"/></c></r>
+<r><c l="2009"/><c l="New Jersey" cd="34" cf="f"/><c v="51,324"/><c v="8,755,602"/><c v="528.3" a="c"><l v="(523.7 - 532.9)"/><l v="2.4"/></c></r>
+<r><c l="2009"/><c l="New Mexico" cd="35" cf="f"/><c v="9,118"/><c v="2,036,802"/><c v="413.6" a="c"><l v="(405.0 - 422.3)"/><l v="4.4"/></c></r>
+<r><c l="2009"/><c l="New York" cd="36" cf="f"/><c v="113,450"/><c v="19,307,066"/><c v="532.5" a="c"><l v="(529.3 - 535.6)"/><l v="1.6"/></c></r>
+<r><c l="2009"/><c l="North Carolina" cd="37" cf="f"/><c v="50,770"/><c v="9,449,566"/><c v="502.0" a="c"><l v="(497.6 - 506.4)"/><l v="2.3"/></c></r>
+<r><c l="2009"/><c l="North Dakota" cd="38" cf="f"/><c v="3,526"/><c v="664,968"/><c v="465.2" a="c"><l v="(449.7 - 481.2)"/><l v="8.0"/></c></r>
+<r><c l="2009"/><c l="Ohio" cd="39" cf="f"/><c v="63,827"/><c v="11,528,896"/><c v="487.4" a="c"><l v="(483.6 - 491.3)"/><l v="2.0"/></c></r>
+<r><c l="2009"/><c l="Oklahoma" cd="40" cf="f"/><c v="19,412"/><c v="3,717,572"/><c v="479.0" a="c"><l v="(472.2 - 485.9)"/><l v="3.5"/></c></r>
+<r><c l="2009"/><c l="Oregon" cd="41" cf="f"/><c v="20,573"/><c v="3,808,600"/><c v="477.0" a="c"><l v="(470.4 - 483.7)"/><l v="3.4"/></c></r>
+<r><c l="2009"/><c l="Pennsylvania" cd="42" cf="f"/><c v="79,790"/><c v="12,666,858"/><c v="521.6" a="c"><l v="(518.0 - 525.3)"/><l v="1.9"/></c></r>
+<r><c l="2009"/><c l="Rhode Island" cd="44" cf="f"/><c v="6,430"/><c v="1,053,646"/><c v="528.9" a="c"><l v="(515.8 - 542.2)"/><l v="6.7"/></c></r>
+<r><c l="2009"/><c l="South Carolina" cd="45" cf="f"/><c v="24,387"/><c v="4,589,872"/><c v="478.9" a="c"><l v="(472.8 - 485.0)"/><l v="3.1"/></c></r>
+<r><c l="2009"/><c l="South Dakota" cd="46" cf="f"/><c v="4,284"/><c v="807,067"/><c v="470.2" a="c"><l v="(456.0 - 484.7)"/><l v="7.3"/></c></r>
+<r><c l="2009"/><c l="Tennessee" cd="47" cf="f"/><c v="34,848"/><c v="6,306,019"/><c v="501.7" a="c"><l v="(496.3 - 507.0)"/><l v="2.7"/></c></r>
+<r><c l="2009"/><c l="Texas" cd="48" cf="f"/><c v="103,287"/><c v="24,801,761"/><c v="456.2" a="c"><l v="(453.4 - 459.0)"/><l v="1.4"/></c></r>
+<r><c l="2009"/><c l="Utah" cd="49" cf="f"/><c v="9,360"/><c v="2,723,421"/><c v="431.3" a="c"><l v="(422.4 - 440.3)"/><l v="4.5"/></c></r>
+<r><c l="2009"/><c l="Vermont" cd="50" cf="f"/><c v="3,827"/><c v="624,817"/><c v="511.1" a="c"><l v="(494.6 - 528.0)"/><l v="8.5"/></c></r>
+<r><c l="2009"/><c l="Virginia" cd="51" cf="f"/><c v="39,246"/><c v="7,925,937"/><c v="473.7" a="c"><l v="(468.9 - 478.4)"/><l v="2.4"/></c></r>
+<r><c l="2009"/><c l="Washington" cd="53" cf="f"/><c v="35,538"/><c v="6,667,426"/><c v="509.6" a="c"><l v="(504.2 - 515.0)"/><l v="2.8"/></c></r>
+<r><c l="2009"/><c l="West Virginia" cd="54" cf="f"/><c v="11,544"/><c v="1,847,775"/><c v="496.1" a="c"><l v="(486.9 - 505.4)"/><l v="4.7"/></c></r>
+<r><c l="2009"/><c l="Wisconsin" cd="55" cf="f"/><c v="30,897"/><c v="5,669,264"/><c v="489.3" a="c"><l v="(483.8 - 494.8)"/><l v="2.8"/></c></r>
+<r><c l="2009"/><c l="Wyoming" cd="56" cf="f"/><c v="2,587"/><c v="559,851"/><c v="435.3" a="c"><l v="(418.3 - 452.8)"/><l v="8.7"/></c></r>
+<r><c l="2009"/><c c="1"/><c dt="1,608,795"/><c dt="306,771,529"/><c dt="488.6" a="c"><l v="(487.9 - 489.4)"/><l v="0.4"/></c></r>
+<r><c l="2010"/><c l="Alabama" cd="01" cf="f"/><c v="25,824"/><c v="4,784,762"/><c v="476.5" a="c"><l v="(470.6 - 482.5)"/><l v="3.0"/></c></r>
+<r><c l="2010"/><c l="Alaska" cd="02" cf="f"/><c v="2,852"/><c v="714,046"/><c v="473.1" a="c"><l v="(454.2 - 492.5)"/><l v="9.7"/></c></r>
+<r><c l="2010"/><c l="Arizona" cd="04" cf="f"/><c v="27,664"/><c v="6,410,810"/><c v="395.9" a="c"><l v="(391.1 - 400.6)"/><l v="2.4"/></c></r>
+<r><c l="2010"/><c l="Arkansas" cd="05" cf="f"/><c v="15,195"/><c v="2,922,750"/><c v="453.5" a="c"><l v="(446.3 - 460.9)"/><l v="3.7"/></c></r>
+<r><c l="2010"/><c l="California" cd="06" cf="f"/><c v="164,845"/><c v="37,334,410"/><c v="446.2" a="c"><l v="(444.0 - 448.4)"/><l v="1.1"/></c></r>
+<r><c l="2010"/><c l="Colorado" cd="08" cf="f"/><c v="22,059"/><c v="5,048,472"/><c v="440.6" a="c"><l v="(434.7 - 446.6)"/><l v="3.0"/></c></r>
+<r><c l="2010"/><c l="Connecticut" cd="09" cf="f"/><c v="21,449"/><c v="3,576,616"/><c v="515.9" a="c"><l v="(508.9 - 523.0)"/><l v="3.6"/></c></r>
+<r><c l="2010"/><c l="Delaware" cd="10" cf="f"/><c v="5,378"/><c v="899,824"/><c v="517.4" a="c"><l v="(503.5 - 531.7)"/><l v="7.2"/></c></r>
+<r><c l="2010"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,044"/><c v="604,989"/><c v="512.8" a="c"><l v="(494.4 - 531.7)"/><l v="9.5"/></c></r>
+<r><c l="2010"/><c l="Florida" cd="12" cf="f"/><c v="109,767"/><c v="18,845,967"/><c v="451.9" a="c"><l v="(449.2 - 454.7)"/><l v="1.4"/></c></r>
+<r><c l="2010"/><c l="Georgia" cd="13" cf="f"/><c v="44,270"/><c v="9,714,748"/><c v="470.8" a="c"><l v="(466.3 - 475.3)"/><l v="2.3"/></c></r>
+<r><c l="2010"/><c l="Hawaii" cd="15" cf="f"/><c v="6,974"/><c v="1,364,274"/><c v="440.8" a="c"><l v="(430.3 - 451.5)"/><l v="5.4"/></c></r>
+<r><c l="2010"/><c l="Idaho" cd="16" cf="f"/><c v="7,564"/><c v="1,570,784"/><c v="466.3" a="c"><l v="(455.7 - 477.1)"/><l v="5.5"/></c></r>
+<r><c l="2010"/><c l="Illinois" cd="17" cf="f"/><c v="67,052"/><c v="12,840,459"/><c v="493.6" a="c"><l v="(489.9 - 497.4)"/><l v="1.9"/></c></r>
+<r><c l="2010"/><c l="Indiana" cd="18" cf="f"/><c v="33,040"/><c v="6,489,856"/><c v="470.5" a="c"><l v="(465.4 - 475.7)"/><l v="2.6"/></c></r>
+<r><c l="2010"/><c l="Iowa" cd="19" cf="f"/><c v="17,917"/><c v="3,050,321"/><c v="500.9" a="c"><l v="(493.5 - 508.4)"/><l v="3.8"/></c></r>
+<r><c l="2010"/><c l="Kansas" cd="20" cf="f"/><c v="14,812"/><c v="2,858,837"/><c v="479.9" a="c"><l v="(472.1 - 487.9)"/><l v="4.0"/></c></r>
+<r><c l="2010"/><c l="Kentucky" cd="21" cf="f"/><c v="25,951"/><c v="4,346,655"/><c v="535.8" a="c"><l v="(529.2 - 542.5)"/><l v="3.4"/></c></r>
+<r><c l="2010"/><c l="Louisiana" cd="22" cf="f"/><c v="24,091"/><c v="4,544,125"/><c v="504.1" a="c"><l v="(497.7 - 510.6)"/><l v="3.3"/></c></r>
+<r><c l="2010"/><c l="Maine" cd="23" cf="f"/><c v="8,638"/><c v="1,327,585"/><c v="508.2" a="c"><l v="(497.3 - 519.3)"/><l v="5.6"/></c></r>
+<r><c l="2010"/><c l="Maryland" cd="24" cf="f"/><c v="29,605"/><c v="5,787,998"/><c v="478.8" a="c"><l v="(473.3 - 484.4)"/><l v="2.8"/></c></r>
+<r><c l="2010"/><c l="Massachusetts" cd="25" cf="f"/><c v="37,184"/><c v="6,563,259"/><c v="497.8" a="c"><l v="(492.6 - 503.0)"/><l v="2.6"/></c></r>
+<r><c l="2010"/><c l="Michigan" cd="26" cf="f"/><c v="56,682"/><c v="9,877,670"/><c v="502.7" a="c"><l v="(498.5 - 506.9)"/><l v="2.1"/></c></r>
+<r><c l="2010"/><c l="Minnesota" cd="27" cf="f"/><c v="27,973"/><c v="5,310,737"/><c v="487.8" a="c"><l v="(482.0 - 493.7)"/><l v="3.0"/></c></r>
+<r><c l="2010"/><c l="Mississippi" cd="28" cf="f"/><c v="15,723"/><c v="2,969,137"/><c v="493.9" a="c"><l v="(486.1 - 501.8)"/><l v="4.0"/></c></r>
+<r><c l="2010"/><c l="Missouri" cd="29" cf="f"/><c v="31,659"/><c v="5,996,092"/><c v="465.2" a="c"><l v="(460.1 - 470.5)"/><l v="2.7"/></c></r>
+<r><c l="2010"/><c l="Montana" cd="30" cf="f"/><c v="5,745"/><c v="990,735"/><c v="482.4" a="c"><l v="(469.6 - 495.4)"/><l v="6.5"/></c></r>
+<r><c l="2010"/><c l="Nebraska" cd="31" cf="f"/><c v="9,291"/><c v="1,829,696"/><c v="463.5" a="c"><l v="(454.0 - 473.2)"/><l v="4.9"/></c></r>
+<r><c l="2010"/><c l="Nevada" cd="32" cf="f"/><c v="11,999"/><c v="2,703,758"/><c v="436.0" a="c"><l v="(428.1 - 444.1)"/><l v="4.1"/></c></r>
+<r><c l="2010"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,899"/><c v="1,316,843"/><c v="511.8" a="c"><l v="(500.3 - 523.5)"/><l v="5.9"/></c></r>
+<r><c l="2010"/><c l="New Jersey" cd="34" cf="f"/><c v="50,515"/><c v="8,803,388"/><c v="511.4" a="c"><l v="(506.9 - 516.0)"/><l v="2.3"/></c></r>
+<r><c l="2010"/><c l="New Mexico" cd="35" cf="f"/><c v="9,154"/><c v="2,064,767"/><c v="403.0" a="c"><l v="(394.6 - 411.5)"/><l v="4.3"/></c></r>
+<r><c l="2010"/><c l="New York" cd="36" cf="f"/><c v="110,506"/><c v="19,399,242"/><c v="511.4" a="c"><l v="(508.4 - 514.5)"/><l v="1.6"/></c></r>
+<r><c l="2010"/><c l="North Carolina" cd="37" cf="f"/><c v="50,392"/><c v="9,559,048"/><c v="485.4" a="c"><l v="(481.1 - 489.7)"/><l v="2.2"/></c></r>
+<r><c l="2010"/><c l="North Dakota" cd="38" cf="f"/><c v="3,644"/><c v="674,363"/><c v="470.9" a="c"><l v="(455.4 - 486.8)"/><l v="8.0"/></c></r>
+<r><c l="2010"/><c l="Ohio" cd="39" cf="f"/><c v="61,334"/><c v="11,538,290"/><c v="461.3" a="c"><l v="(457.6 - 465.0)"/><l v="1.9"/></c></r>
+<r><c l="2010"/><c l="Oklahoma" cd="40" cf="f"/><c v="18,967"/><c v="3,759,482"/><c v="460.4" a="c"><l v="(453.8 - 467.1)"/><l v="3.4"/></c></r>
+<r><c l="2010"/><c l="Oregon" cd="41" cf="f"/><c v="20,224"/><c v="3,838,212"/><c v="458.8" a="c"><l v="(452.4 - 465.3)"/><l v="3.3"/></c></r>
+<r><c l="2010"/><c l="Pennsylvania" cd="42" cf="f"/><c v="79,541"/><c v="12,711,308"/><c v="513.7" a="c"><l v="(510.0 - 517.3)"/><l v="1.9"/></c></r>
+<r><c l="2010"/><c l="Rhode Island" cd="44" cf="f"/><c v="5,905"/><c v="1,052,769"/><c v="480.9" a="c"><l v="(468.4 - 493.6)"/><l v="6.4"/></c></r>
+<r><c l="2010"/><c l="South Carolina" cd="45" cf="f"/><c v="24,848"/><c v="4,635,835"/><c v="476.0" a="c"><l v="(470.0 - 482.1)"/><l v="3.1"/></c></r>
+<r><c l="2010"/><c l="South Dakota" cd="46" cf="f"/><c v="4,206"/><c v="816,223"/><c v="452.6" a="c"><l v="(438.7 - 466.8)"/><l v="7.1"/></c></r>
+<r><c l="2010"/><c l="Tennessee" cd="47" cf="f"/><c v="34,591"/><c v="6,356,673"/><c v="487.0" a="c"><l v="(481.8 - 492.3)"/><l v="2.7"/></c></r>
+<r><c l="2010"/><c l="Texas" cd="48" cf="f"/><c v="100,952"/><c v="25,242,683"/><c v="433.4" a="c"><l v="(430.7 - 436.2)"/><l v="1.4"/></c></r>
+<r><c l="2010"/><c l="Utah" cd="49" cf="f"/><c v="9,734"/><c v="2,775,093"/><c v="435.0" a="c"><l v="(426.2 - 443.8)"/><l v="4.5"/></c></r>
+<r><c l="2010"/><c l="Vermont" cd="50" cf="f"/><c v="3,758"/><c v="625,916"/><c v="493.6" a="c"><l v="(477.6 - 510.1)"/><l v="8.3"/></c></r>
+<r><c l="2010"/><c l="Virginia" cd="51" cf="f"/><c v="37,442"/><c v="8,025,105"/><c v="440.5" a="c"><l v="(436.0 - 445.1)"/><l v="2.3"/></c></r>
+<r><c l="2010"/><c l="Washington" cd="53" cf="f"/><c v="35,484"/><c v="6,743,636"/><c v="495.3" a="c"><l v="(490.1 - 500.6)"/><l v="2.7"/></c></r>
+<r><c l="2010"/><c l="West Virginia" cd="54" cf="f"/><c v="11,355"/><c v="1,854,019"/><c v="483.0" a="c"><l v="(474.0 - 492.2)"/><l v="4.6"/></c></r>
+<r><c l="2010"/><c l="Wisconsin" cd="55" cf="f"/><c v="30,982"/><c v="5,689,591"/><c v="483.2" a="c"><l v="(477.7 - 488.7)"/><l v="2.8"/></c></r>
+<r><c l="2010"/><c l="Wyoming" cd="56" cf="f"/><c v="2,701"/><c v="564,367"/><c v="441.5" a="c"><l v="(424.6 - 458.9)"/><l v="8.7"/></c></r>
+<r><c l="2010"/><c c="1"/><c dt="1,588,381"/><c dt="309,326,225"/><c dt="472.7" a="c"><l v="(471.9 - 473.4)"/><l v="0.4"/></c></r>
+<r><c l="2011"/><c l="Alabama" cd="01" cf="f"/><c v="25,534"/><c v="4,803,689"/><c v="464.3" a="c"><l v="(458.5 - 470.1)"/><l v="3.0"/></c></r>
+<r><c l="2011"/><c l="Alaska" cd="02" cf="f"/><c v="2,743"/><c v="723,860"/><c v="438.6" a="c"><l v="(420.8 - 456.9)"/><l v="9.1"/></c></r>
+<r><c l="2011"/><c l="Arizona" cd="04" cf="f"/><c v="28,515"/><c v="6,467,315"/><c v="397.2" a="c"><l v="(392.6 - 401.9)"/><l v="2.4"/></c></r>
+<r><c l="2011"/><c l="Arkansas" cd="05" cf="f"/><c v="15,162"/><c v="2,938,582"/><c v="445.2" a="c"><l v="(438.1 - 452.5)"/><l v="3.7"/></c></r>
+<r><c l="2011"/><c l="California" cd="06" cf="f"/><c v="164,397"/><c v="37,683,933"/><c v="434.0" a="c"><l v="(431.9 - 436.1)"/><l v="1.1"/></c></r>
+<r><c l="2011"/><c l="Colorado" cd="08" cf="f"/><c v="22,293"/><c v="5,116,302"/><c v="432.2" a="c"><l v="(426.4 - 438.1)"/><l v="3.0"/></c></r>
+<r><c l="2011"/><c l="Connecticut" cd="09" cf="f"/><c v="21,333"/><c v="3,586,717"/><c v="506.4" a="c"><l v="(499.5 - 513.4)"/><l v="3.5"/></c></r>
+<r><c l="2011"/><c l="Delaware" cd="10" cf="f"/><c v="5,528"/><c v="908,137"/><c v="518.3" a="c"><l v="(504.5 - 532.4)"/><l v="7.1"/></c></r>
+<r><c l="2011"/><c l="District of Columbia" cd="11" cf="f"/><c v="3,230"/><c v="619,020"/><c v="533.1" a="c"><l v="(514.5 - 552.3)"/><l v="9.6"/></c></r>
+<r><c l="2011"/><c l="Florida" cd="12" cf="f"/><c v="109,186"/><c v="19,082,262"/><c v="439.6" a="c"><l v="(436.9 - 442.3)"/><l v="1.4"/></c></r>
+<r><c l="2011"/><c l="Georgia" cd="13" cf="f"/><c v="45,855"/><c v="9,812,460"/><c v="476.7" a="c"><l v="(472.2 - 481.2)"/><l v="2.3"/></c></r>
+<r><c l="2011"/><c l="Hawaii" cd="15" cf="f"/><c v="7,036"/><c v="1,378,129"/><c v="436.4" a="c"><l v="(426.0 - 447.0)"/><l v="5.3"/></c></r>
+<r><c l="2011"/><c l="Idaho" cd="16" cf="f"/><c v="7,674"/><c v="1,583,744"/><c v="462.0" a="c"><l v="(451.6 - 472.7)"/><l v="5.4"/></c></r>
+<r><c l="2011"/><c l="Illinois" cd="17" cf="f"/><c v="67,790"/><c v="12,859,752"/><c v="491.3" a="c"><l v="(487.5 - 495.1)"/><l v="1.9"/></c></r>
+<r><c l="2011"/><c l="Indiana" cd="18" cf="f"/><c v="32,755"/><c v="6,516,353"/><c v="458.9" a="c"><l v="(453.8 - 463.9)"/><l v="2.6"/></c></r>
+<r><c l="2011"/><c l="Iowa" cd="19" cf="f"/><c v="17,719"/><c v="3,064,097"/><c v="490.2" a="c"><l v="(482.8 - 497.6)"/><l v="3.8"/></c></r>
+<r><c l="2011"/><c l="Kansas" cd="20" cf="f"/><c v="14,992"/><c v="2,870,386"/><c v="479.9" a="c"><l v="(472.1 - 487.8)"/><l v="4.0"/></c></r>
+<r><c l="2011"/><c l="Kentucky" cd="21" cf="f"/><c v="25,539"/><c v="4,366,814"/><c v="518.6" a="c"><l v="(512.2 - 525.1)"/><l v="3.3"/></c></r>
+<r><c l="2011"/><c l="Louisiana" cd="22" cf="f"/><c v="24,527"/><c v="4,574,766"/><c v="501.9" a="c"><l v="(495.5 - 508.4)"/><l v="3.3"/></c></r>
+<r><c l="2011"/><c l="Maine" cd="23" cf="f"/><c v="8,523"/><c v="1,328,544"/><c v="495.1" a="c"><l v="(484.4 - 506.1)"/><l v="5.5"/></c></r>
+<r><c l="2011"/><c l="Maryland" cd="24" cf="f"/><c v="28,927"/><c v="5,839,572"/><c v="455.8" a="c"><l v="(450.5 - 461.2)"/><l v="2.7"/></c></r>
+<r><c l="2011"/><c l="Massachusetts" cd="25" cf="f"/><c v="38,199"/><c v="6,607,003"/><c v="502.3" a="c"><l v="(497.2 - 507.5)"/><l v="2.6"/></c></r>
+<r><c l="2011"/><c l="Michigan" cd="26" cf="f"/><c v="56,095"/><c v="9,876,801"/><c v="489.3" a="c"><l v="(485.2 - 493.5)"/><l v="2.1"/></c></r>
+<r><c l="2011"/><c l="Minnesota" cd="27" cf="f"/><c v="29,719"/><c v="5,347,299"/><c v="506.3" a="c"><l v="(500.4 - 512.2)"/><l v="3.0"/></c></r>
+<r><c l="2011"/><c l="Mississippi" cd="28" cf="f"/><c v="15,410"/><c v="2,977,457"/><c v="476.2" a="c"><l v="(468.6 - 483.9)"/><l v="3.9"/></c></r>
+<r><c l="2011"/><c l="Missouri" cd="29" cf="f"/><c v="31,578"/><c v="6,008,984"/><c v="458.1" a="c"><l v="(453.0 - 463.3)"/><l v="2.6"/></c></r>
+<r><c l="2011"/><c l="Montana" cd="30" cf="f"/><c v="5,794"/><c v="997,667"/><c v="474.9" a="c"><l v="(462.4 - 487.7)"/><l v="6.4"/></c></r>
+<r><c l="2011"/><c l="Nebraska" cd="31" cf="f"/><c v="9,246"/><c v="1,842,234"/><c v="456.2" a="c"><l v="(446.7 - 465.7)"/><l v="4.8"/></c></r>
+<r><c l="2011"/><c l="Nevada" cd="32" cf="f"/><c v="Missing"/><c v="Missing"/><c v="Missing" a="c"></c></r>
+<r><c l="2011"/><c l="New Hampshire" cd="33" cf="f"/><c v="7,993"/><c v="1,317,807"/><c v="512.0" a="c"><l v="(500.5 - 523.6)"/><l v="5.9"/></c></r>
+<r><c l="2011"/><c l="New Jersey" cd="34" cf="f"/><c v="50,161"/><c v="8,834,773"/><c v="501.6" a="c"><l v="(497.1 - 506.1)"/><l v="2.3"/></c></r>
+<r><c l="2011"/><c l="New Mexico" cd="35" cf="f"/><c v="8,925"/><c v="2,078,674"/><c v="384.6" a="c"><l v="(376.5 - 392.9)"/><l v="4.2"/></c></r>
+<r><c l="2011"/><c l="New York" cd="36" cf="f"/><c v="113,628"/><c v="19,501,616"/><c v="517.7" a="c"><l v="(514.6 - 520.7)"/><l v="1.6"/></c></r>
+<r><c l="2011"/><c l="North Carolina" cd="37" cf="f"/><c v="50,742"/><c v="9,651,103"/><c v="476.4" a="c"><l v="(472.2 - 480.6)"/><l v="2.1"/></c></r>
+<r><c l="2011"/><c l="North Dakota" cd="38" cf="f"/><c v="3,705"/><c v="684,740"/><c v="468.8" a="c"><l v="(453.4 - 484.5)"/><l v="7.9"/></c></r>
+<r><c l="2011"/><c l="Ohio" cd="39" cf="f"/><c v="62,210"/><c v="11,541,007"/><c v="462.1" a="c"><l v="(458.5 - 465.9)"/><l v="1.9"/></c></r>
+<r><c l="2011"/><c l="Oklahoma" cd="40" cf="f"/><c v="18,948"/><c v="3,784,163"/><c v="452.9" a="c"><l v="(446.3 - 459.5)"/><l v="3.3"/></c></r>
+<r><c l="2011"/><c l="Oregon" cd="41" cf="f"/><c v="20,987"/><c v="3,868,229"/><c v="466.1" a="c"><l v="(459.7 - 472.6)"/><l v="3.3"/></c></r>
+<r><c l="2011"/><c l="Pennsylvania" cd="42" cf="f"/><c v="80,801"/><c v="12,743,948"/><c v="515.9" a="c"><l v="(512.3 - 519.6)"/><l v="1.9"/></c></r>
+<r><c l="2011"/><c l="Rhode Island" cd="44" cf="f"/><c v="5,977"/><c v="1,050,646"/><c v="484.1" a="c"><l v="(471.6 - 496.8)"/><l v="6.4"/></c></r>
+<r><c l="2011"/><c l="South Carolina" cd="45" cf="f"/><c v="24,061"/><c v="4,673,348"/><c v="450.3" a="c"><l v="(444.5 - 456.1)"/><l v="3.0"/></c></r>
+<r><c l="2011"/><c l="South Dakota" cd="46" cf="f"/><c v="4,464"/><c v="823,593"/><c v="471.7" a="c"><l v="(457.6 - 486.0)"/><l v="7.2"/></c></r>
+<r><c l="2011"/><c l="Tennessee" cd="47" cf="f"/><c v="34,806"/><c v="6,399,787"/><c v="478.8" a="c"><l v="(473.7 - 483.9)"/><l v="2.6"/></c></r>
+<r><c l="2011"/><c l="Texas" cd="48" cf="f"/><c v="100,542"/><c v="25,631,778"/><c v="418.3" a="c"><l v="(415.7 - 421.0)"/><l v="1.3"/></c></r>
+<r><c l="2011"/><c l="Utah" cd="49" cf="f"/><c v="9,842"/><c v="2,814,347"/><c v="428.4" a="c"><l v="(419.9 - 437.1)"/><l v="4.4"/></c></r>
+<r><c l="2011"/><c l="Vermont" cd="50" cf="f"/><c v="3,633"/><c v="626,592"/><c v="470.4" a="c"><l v="(454.7 - 486.4)"/><l v="8.0"/></c></r>
+<r><c l="2011"/><c l="Virginia" cd="51" cf="f"/><c v="38,096"/><c v="8,104,384"/><c v="437.8" a="c"><l v="(433.3 - 442.3)"/><l v="2.3"/></c></r>
+<r><c l="2011"/><c l="Washington" cd="53" cf="f"/><c v="35,700"/><c v="6,823,267"/><c v="486.7" a="c"><l v="(481.6 - 491.9)"/><l v="2.6"/></c></r>
+<r><c l="2011"/><c l="West Virginia" cd="54" cf="f"/><c v="11,598"/><c v="1,854,908"/><c v="488.2" a="c"><l v="(479.1 - 497.4)"/><l v="4.6"/></c></r>
+<r><c l="2011"/><c l="Wisconsin" cd="55" cf="f"/><c v="31,093"/><c v="5,709,843"/><c v="474.9" a="c"><l v="(469.5 - 480.3)"/><l v="2.7"/></c></r>
+<r><c l="2011"/><c l="Wyoming" cd="56" cf="f"/><c v="2,736"/><c v="567,356"/><c v="443.9" a="c"><l v="(427.0 - 461.4)"/><l v="8.7"/></c></r>
+<r><c l="2011"/><c c="1"/><c dt="1,585,947"/><c dt="308,867,788"/><c dt="466.4" a="c"><l v="(465.7 - 467.2)"/><l v="0.4"/></c></r>
+<r><c c="2"/><c dt="19,107,312"/><c dt="3,748,907,736"/><c dt="492.1" a="c"><l v="(491.9 - 492.3)"/><l v="0.1"/></c></r>
+</data-table>
+<flags>
+<flag oncount="true">Missing</flag>
+</flags>
+<options>
+<other-parameters>
+	<parameter code="O_show_totals" label="Show Totals" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_zeros" label="Show Zero Values" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_suppressed" label="Show Suppressed" display="true">
+		<option value="true" label="True"/>
+		<option value="false" label="False"/>
+		<option value="disabled" label="Disabled"/>
+		<value>true</value>
+	</parameter>
+	<parameter code="O_precision" label="Precision" display="false">
+		<option value="0" label="0"/>
+		<option value="1" label="1"/>
+		<option value="2" label="2"/>
+		<option value="3" label="3"/>
+		<option value="4" label="4"/>
+		<option value="5" label="5"/>
+		<option value="6" label="6"/>
+		<option value="7" label="7"/>
+		<option value="8" label="8"/>
+		<option value="9" label="9"/>
+		<value>1</value>
+	</parameter>
+	<parameter code="O_timeout" label="Data Access Timeout" display="false">
+		<option value="60" label="1"/>
+		<option value="120" label="2"/>
+		<option value="180" label="3"/>
+		<option value="240" label="4"/>
+		<option value="300" label="5"/>
+		<option value="360" label="6"/>
+		<option value="420" label="7"/>
+		<option value="480" label="8"/>
+		<option value="540" label="9"/>
+		<option value="600" label="10"/>
+		<value>300</value>
+	</parameter>
+	<parameter code="O_groups_count" label="Groups" display="false">
+		<option value="2" label="Two"/>
+		<option value="3" label="Three"/>
+		<option value="4" label="Four"/>
+		<option value="5" label="Five"/>
+		<option value="6" label="Six"/>
+		<option value="7" label="Seven"/>
+		<option value="8" label="Eight"/>
+		<option value="9" label="Nine"/>
+		<option value="10" label="Ten"/>
+		<value>4</value>
+	</parameter>
+	<parameter code="O_groups_methods" label="Group Breaks Method" display="false">
+		<option value="QUANTILE" label="Quantile"/>
+		<option value="EQUAL" label="Equal Interval"/>
+		<value>QUANTILE</value>
+	</parameter>
+	<parameter code="O_rate_per" label="Calculate Rates Per" display="true">
+		<option value="100000" label="100,000"/>
+		<option value="1000000" label="1,000,000"/>
+		<value>100000</value>
+	</parameter>
+	<parameter code="O_stdpop" label="Standard Population" display="true">
+		<option value="141" label="1940 U.S. Std. Million"/>
+		<option value="171" label="1970 U.S. Std. Million"/>
+		<option value="201" label="2000 U.S. Std. Million"/>
+		<option value="006" label="World Std. Million"/>
+		<value>201</value>
+	</parameter>
+	<parameter code="O_location" display="false">
+		<value>D100.V2</value>
+	</parameter>
+	<parameter code="O_cancer" display="false">
+		<value>D100.V8</value>
+	</parameter>
+	<parameter code="O_title" display="false">
+		<value></value>
+	</parameter>
+	<parameter code="O_V11_fmode" display="false">
+		<value>freg</value>
+	</parameter>
+	<parameter code="O_javascript" display="false">
+		<value>on</value>
+	</parameter>
+	<parameter code="O_labels_opt" display="false">
+		<value>true</value>
+	</parameter>
+	<parameter code="O_show_rank" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_groups" display="false">
+		<value>false</value>
+	</parameter>
+	<parameter code="O_labels_quick" display="false">
+		<value>true</value>
+	</parameter>
+</other-parameters>
+<measure-selections-show>
+	<measure code="D100.M1"/>
+	<measure code="D100.M2"/>
+	<measure code="D100.M30"/>
+</measure-selections-show>
+<groups>
+</groups>
+</options>
+<footnotes>
+</footnotes>
+<caveats>
+<caveat><![CDATA[These states are missing data for the indicated year: 
+				Alabama 1999; 
+				Arkansas 1999-2000, 2002;
+				District of Columbia 2001-2002;
+				Maryland 2001;
+				Mississippi 1999-2002; 
+				Nevada 1999, 2011;
+ 			  North Dakota 2001;
+				South Dakota 1999-2000;  
+				Tennessee 1999-2003;  
+				Virginia 1999-2002.]]></caveat>
+<caveat><![CDATA[Data are suppressed if fewer than 16 cases are reported in the specific category.
+				Data for the "Asian / Pacific Islander", "American Indian or Alaska Native", and the "Other Races Combined" race categories are suppressed at the Metropolitan Statistical Area level for populations less than 50,000 persons.
+				Data are suppressed at the state level for certain race and ethnicity groups:
+				1) American Indian or Alaska Native data are suppressed at the state level for 
+				Delaware, Georgia, Illinois, Kansas, Kentucky, Missouri, New Jersey, New York, and South Carolina;
+				2) Asian or Pacific Islander data are suppressed at the state level for
+				Delaware, Illinois, Kansas, Kentucky, Missouri, and South Carolina;
+				3) Hispanic data are supressed at the state level for 
+				Delaware, Kentucky, Massachusetts, Missouri, Pennsylvania, and South Carolina.
+				<a href="/wonder/help/cancer-v2011.html#Confidentiality" target="WONDER_Help" onclick="setfocus('WONDER_Help')">More information.</a>]]></caveat>
+<caveat><![CDATA[Data are from selected statewide and metropolitan area cancer registries that meet data quality criteria.]]></caveat>
+<caveat><![CDATA[For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from 
+			Alabama, Louisiana, Mississippi and Texas due to Hurricanes Katrina and Rita. CDC WONDER does not 
+			include the displaced persons in the 2005 population counts for these states, nor are these counts 
+			included in the summary populations for the affected division, regions or national population.  However, 
+			the USCS web site does include these displaced persons in the national population figures for 2005.]]></caveat>
+<caveat><![CDATA[Information on primary site, behavior, and histology was coded according to the 
+			International Classification of Diseases for Oncology, Third Edition (ICD-O-3) and categorized 
+			according to the revised SEER recodes dated January 27, 2003, which define standard groupings of 
+			primary cancer sites.]]></caveat>
+</caveats>
+</response>
+<tabs2>
+	<tab label="Request Form" status="closed" target="request" title="Click to see the request page"/>
+	<tab label="Results" status="open" target="results" title="Click to see the results table"/>
+	<tab label="Map" status="closed" target="map" title="Click to create maps"/>
+	<tab label="Chart" status="closed" target="chart" title="Click to create charts"/>
+	<tab label="About" status="closed" target="about" title="Information about this dataset"/>
+</tabs2>
+</page>
