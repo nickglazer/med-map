@@ -1376,6 +1376,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-svg-map@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/react-svg-map/-/react-svg-map-2.1.0.tgz#55b97c64c7337d70a17e9cfce82db1e542f65703"
+  integrity sha512-w1E94mi5t024NMNocsiqH7veisQ2I4ExTw8/8b+Z9qnni2hTlORhz308FGBamM0vMjyVFDoozzm2XVjooj1M7A==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.9.0":
   version "16.9.17"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.17.tgz#58f0cc0e9ec2425d1441dd7b623421a867aa253e"
@@ -1388,6 +1395,11 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/svg-maps__usa@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/svg-maps__usa/-/svg-maps__usa-1.1.0.tgz#772a6a69b8699d6b7b438f303c026f0f831e44ee"
+  integrity sha512-s07JkcChcZC1knFjUChIzb6RcXTqXrOnc5qnKYyS8avnugHvdZaDorP0YOXXqz0m2HFzvSgxOQn2fInBwS9gAA==
 
 "@types/testing-library__dom@*", "@types/testing-library__dom@^6.0.0":
   version "6.11.1"
