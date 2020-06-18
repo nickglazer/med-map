@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a877ba7e28aa834303418b2a56b18c60",
+    "revision": "d88ca40a9a07270a7f09b69c64a7636f",
     "url": "/med-map/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/med-map/static/css/2.b5cd4b83.chunk.css"
   },
   {
-    "revision": "f6f8c91e56abaf2223b2",
+    "revision": "9f04d74473d89131c054",
     "url": "/med-map/static/css/main.110a2be4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/med-map/static/js/2.ab576966.chunk.js.LICENSE"
   },
   {
-    "revision": "f6f8c91e56abaf2223b2",
-    "url": "/med-map/static/js/main.6ce3cab6.chunk.js"
+    "revision": "9f04d74473d89131c054",
+    "url": "/med-map/static/js/main.d8e69e87.chunk.js"
   },
   {
     "revision": "a6d9980f23639b8dd92c",
