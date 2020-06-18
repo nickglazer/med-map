@@ -7,7 +7,7 @@ export interface PapersProps {
 }
 
 const Papers: React.FC<PapersProps> = ({ searchTerm }) => {
-  const [papers, setPapers] = useState();
+  const [papers, setPapers] = useState([]);
 
   useEffect(() => {
     const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=${searchTerm}+AND+free+fulltext[filter]&retmode=json`;

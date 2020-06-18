@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer: React.FC = () => (
   <div className={'footer'}>
-    <p>Nicholas Glazer :: Stephen DiGiacomo :: 2014-2019</p>
+    <p>Nick Glazer :: 2014-2019</p>
   </div>
 );
 
